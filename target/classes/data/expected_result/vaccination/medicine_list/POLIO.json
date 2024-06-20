@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "IFARXHX0.5",
+        "name": "IFARXHX0.5",
+        "description": "Combined diphtheria, tetanus toxoids, acellular pertussis, hepatitis b, inactivated poliomyelitis, adsorbed conjugated haemophilus influenzae"
+      },
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      },
+      {
+        "medId": "PENTAXIM",
+        "name": "PENTAXIM",
+        "description": "To protect against diphtheria, tetanus, pertussis, poliomyelitis and invasive infections caused by Haemophilus influenzae type b (such as meningitis, septicaemia, cellulitis, arthritis, epiglottitis,"
+      },
+      {
+        "medId": "TETRAXI0.5",
+        "name": "TETRAXI0.5",
+        "description": "To help protect children against diphtheria, tetanus, whooping cough (pertussis) and poliomyelitis"
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}

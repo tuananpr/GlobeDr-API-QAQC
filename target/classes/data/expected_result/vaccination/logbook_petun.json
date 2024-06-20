@@ -1,0 +1,756 @@
+{
+  "utcTime0": "2020-09-14T07:43:09.984",
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "groupName": "Lao (Tuberculosis)",
+        "description": "- Sơ sinh<BR/>- IDR…………………….mm<BR/>- Nhắc lại một liều nếu IDR kiểm tra âm tính",
+        "listShot": [
+          {
+            "doseName": "Sơ sinh",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "5 trong 1 : Bạch hầu, ho gà, uốn ván, viêm do Hib và bại liệt hoặc viêm gan B",
+        "description": "- Từ tháng thứ 2: 3 liều liên tiếp cách nhau 1 - 2 tháng<BR/>- Nhắc lại 1 liều lúc 16 - 18 tháng",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 3",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 4",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "6 trong 1 : Bạch hầu, ho gà, uốn ván, viêm do Hib, bại liệt và viêm gan B",
+        "description": "- Từ tháng thứ 2: 3 liều liên tiếp cách nhau 1 - 2 tháng<BR/>- Nhắc lại 1 liều lúc 16 - 18 tháng",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 3",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 4",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Bạch hầu - Uốn ván - Ho gà (Diphtheria - Tetanus - Pertussis)",
+        "description": "- Từ tháng thứ 2: 3 liều liên tiếp cách nhau 1 - 2 tháng<BR/>- Nhắc lại 1 liều lúc 16 - 18 tháng,1 liều lúc 4 - 6 tuổi (D Tap)",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 3",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 4",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 5",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Viêm gan A (Hepatitis A)",
+        "description": "Từ 12 tháng: 2 liều cách nhau 6 - 18 tháng",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Viêm gan siêu vi B (Hepatitis B)",
+        "description": "- Từ lúc mới sinh, 3 liều liên tiếp cách nhau 1 - 2 tháng<BR/>- Có thể nhắc lại theo chỉ định của bác sĩ",
+        "listShot": [
+          {
+            "doseName": "Sơ sinh",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 3",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 4",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Viêm màng não mủ do Haemophilus Influenza B",
+        "description": "- Nếu từ 2 - 6 tháng: 3 liều liên tiếp cách nhau 1 tháng, nhắc lại 1 liều lúc 16 - 18 tháng<BR/>- Nếu sau 6 tháng: 2 liều liên tiếp cách nhau 1 tháng, 12 tháng sau liều 2 nhắc lại 1 liều<BR/>- Nếu sau 1 tuổi: 1 liều duy nhất",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 3",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 4",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Ung thư tử cung,sinh dục nam",
+        "description": "Bắt đầu từ 9 tuổi: <BR/>-2 liều đầu cách nhau 2 tháng,<BR/>-Liều thứ 3 cách liều thứ hai 4 tháng",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 3",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Cúm (Influenza)",
+        "description": "- Từ 6 tháng - 9 tuổi<BR/>- Lần đầu tiêm 2 mũi cách nhau tối thiểu 1 tháng<BR/>- Nhắc lại mỗi năm 1 liều",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Viêm não Nhật Bản B",
+        "description": "Bắt đầu từ 1 tuổi:<BR/>- 2 liều đầu cách nhau 1 đến 2 tuần,<BR/>-từ 2 tuổi nhắc lại mỗi 3 năm",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 3",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Viêm màng não do não mô cầu A + C (Meningococcus)",
+        "description": "Từ 24 tháng tuổi: 2 liều cách nhau 3 năm",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Viêm màng não do Não mô cầu BC",
+        "description": "- Từ tháng thứ 6: 1 liều lúc 6 tháng và 1 liều lúc 8 tháng",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Sởi - Quai bị - Rubella (Measles - Mumps - Rubella)",
+        "description": "- Tiêm lần 1: từ 12 tháng tuổi<BR/>- Nhắc lại 1 liều kết hợp Sởi - Quai bị - Rubella lúc 4 - 6 tuổi",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Bại liệt (Poliovirus) Uống hoặc Chích",
+        "description": "- Từ tháng thứ 2: 3 liều liên tiếp cách nhau 1 - 2 tháng<BR/>- Nhắc lại 1 liều lúc 16 - 18 tháng, 1 liều lúc 4 - 6 tuổi (D Tap)",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 3",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 4",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Rotavirus",
+        "description": "Trẻ từ 2 - 6 tháng: các liều cách nhau 1 - 2 tháng",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Thương hàn (Typhoid)",
+        "description": "Bắt đầu từ 2 tuổi: 2 liều cách nhau 3 năm",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Nhắc lại",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Thủy đậu - (Trái rạ) (Varicella)",
+        "description": "- Tiêm lần 1: từ 12 tháng tuổi<BR/>- Nhắc lại: lúc 4 - 6 tuổi (có thể cách liều thứ 1 tối thiểu 6 tuần)",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Phế cầu (Pneumococcus)",
+        "description": "- Nếu từ 2 - 6 tháng: (Pneumococcal conjugate vaccine PCV) 3 liều liên tiếp cách nhau 1 - 2 tháng, nhắc lại 1 liều lúc 12 - 15 tháng<BR/>- Từ 2 tuổi: (Pneumococcal polysaccharide vaccine PPSV) liều duy nhất",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 3",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 4",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Sởi (Measles)",
+        "description": "Mũi sởi đơn tiêm lúc 9 tháng",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      },
+      {
+        "groupName": "Bệnh tả",
+        "description": "Bắt đầu từ 2 tuổi: 2 liều cách nhau 2 tuần",
+        "listShot": [
+          {
+            "doseName": "Liều 1",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          },
+          {
+            "doseName": "Liều 2",
+            "receiveDate": null,
+            "notes": null,
+            "byOrgName": null,
+            "vaccineLot": null,
+            "medName": null
+          }
+        ]
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": ""
+  }
+}

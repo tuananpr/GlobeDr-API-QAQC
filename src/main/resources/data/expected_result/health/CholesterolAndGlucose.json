@@ -1,0 +1,53 @@
+{
+  "utcTime0": "2021-10-27T22:33:11.725",
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "texts": [
+          "80 - 100",
+          "170 - 200",
+          "4 - 6"
+        ],
+        "values": [],
+        "status": {
+          "value": "#36AF49",
+          "key": "Normal",
+          "tag": 1,
+          "color": "#36AF49_#1BD773"
+        }
+      },
+      {
+        "texts": [
+          "101 - 125",
+          "201 - 230",
+          "6 - 9"
+        ],
+        "values": [],
+        "status": {
+          "value": "#FF9100",
+          "key": "Prediabetic",
+          "tag": 20,
+          "color": "#F4C157_#FF985A"
+        }
+      },
+      {
+        "texts": [
+          "126 +",
+          "231 +",
+          "9 +"
+        ],
+        "values": [],
+        "status": {
+          "value": "#E10000",
+          "key": "Diabetic",
+          "tag": 21,
+          "color": "#D82400_#DE0505"
+        }
+      }
+    ],
+    "total": 3
+  },
+  "errors": null
+}

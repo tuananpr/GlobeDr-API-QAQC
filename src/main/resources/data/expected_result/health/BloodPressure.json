@@ -1,0 +1,95 @@
+{
+  "utcTime0": "2021-10-27T22:33:09.121",
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "texts": [
+          "< 86",
+          "or",
+          "< 56"
+        ],
+        "values": [],
+        "status": {
+          "value": "#0078D7",
+          "key": "Hypotension",
+          "tag": 10,
+          "color": "#66CAE2_#70DFF2"
+        }
+      },
+      {
+        "texts": [
+          "86 - 119",
+          "and",
+          "< 80"
+        ],
+        "values": [],
+        "status": {
+          "value": "#36AF49",
+          "key": "Normal",
+          "tag": 1,
+          "color": "#36AF49_#1BD773"
+        }
+      },
+      {
+        "texts": [
+          "120 - 129",
+          "and",
+          "< 80"
+        ],
+        "values": [],
+        "status": {
+          "value": "#FF9100",
+          "key": "Prehypertension",
+          "tag": 11,
+          "color": "#FEC23E_#FAE633"
+        }
+      },
+      {
+        "texts": [
+          "130 - 139",
+          "or",
+          "80 - 89"
+        ],
+        "values": [],
+        "status": {
+          "value": "#E10000",
+          "key": "Hypertension stage 1",
+          "tag": 12,
+          "color": "#FF9634_#FF985A"
+        }
+      },
+      {
+        "texts": [
+          "140 - 179",
+          "or",
+          "90 - 119"
+        ],
+        "values": [],
+        "status": {
+          "value": "#E10000",
+          "key": "Hypertension stage 2",
+          "tag": 13,
+          "color": "#F16524_#FF3E3E"
+        }
+      },
+      {
+        "texts": [
+          "180+",
+          "and/or",
+          "120+"
+        ],
+        "values": [],
+        "status": {
+          "value": "#5E07AA",
+          "key": "Hypertensive crisis",
+          "tag": 14,
+          "color": "#EC1C24_#DE0505"
+        }
+      }
+    ],
+    "total": 6
+  },
+  "errors": null
+}

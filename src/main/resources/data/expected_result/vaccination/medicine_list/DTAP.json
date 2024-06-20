@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "DPT",
+        "name": "DPT",
+        "description": "Diphtheria, tetanus, pertussis"
+      },
+      {
+        "medId": "IFARXHX0.5",
+        "name": "IFARXHX0.5",
+        "description": "Combined diphtheria, tetanus toxoids, acellular pertussis, hepatitis b, inactivated poliomyelitis, adsorbed conjugated haemophilus influenzae"
+      },
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      },
+      {
+        "medId": "PENTAXIM",
+        "name": "PENTAXIM",
+        "description": "To protect against diphtheria, tetanus, pertussis, poliomyelitis and invasive infections caused by Haemophilus influenzae type b (such as meningitis, septicaemia, cellulitis, arthritis, epiglottitis,"
+      },
+      {
+        "medId": "QUINVAXEM",
+        "name": "QUINVAXEM",
+        "description": "To protect against diphtheria, tetanus, pertussis, hepatitis B and Haemophilus influenzae type b infections"
+      },
+      {
+        "medId": "TETRAXI0.5",
+        "name": "TETRAXI0.5",
+        "description": "To help protect children against diphtheria, tetanus, whooping cough (pertussis) and poliomyelitis"
+      },
+      {
+        "medId": "TRITANR0.5",
+        "name": "TRITANR0.5",
+        "description": "Tritanrix HepB is indicated for active immunisation against diphtheria, tetanus, pertussis and hepatitis B"
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}

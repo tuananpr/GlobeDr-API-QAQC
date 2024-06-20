@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      },
+      {
+        "medId": "ROTARIX1.0",
+        "name": "ROTARIX1.0",
+        "description": "Rota virus"
+      },
+      {
+        "medId": "ROTARIX1.5",
+        "name": "ROTARIX1.5",
+        "description": "Rota virus"
+      },
+      {
+        "medId": "ROTATEQ2.0",
+        "name": "ROTATEQ2.0",
+        "description": "Rota virus"
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}

@@ -1,0 +1,2 @@
+Maven Console
+1/ Generates executable jar files with dependencies: mvn clean package

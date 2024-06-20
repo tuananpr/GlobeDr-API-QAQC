@@ -1,0 +1,39 @@
+{
+    "success": true,
+    "message": null,
+    "data": [
+        {
+            "code": "CH",
+            "name": "Tây Nguyên"
+        },
+        {
+            "code": "MR",
+            "name": "Đồng Bằng Sông Cửu Long"
+        },
+        {
+            "code": "NC",
+            "name": "Bắc Trung Bộ Việt Nam"
+        },
+        {
+            "code": "NE",
+            "name": "Đông Bắc Việt Nam"
+        },
+        {
+            "code": "NW",
+            "name": "Tây Bắc Việt Nam"
+        },
+        {
+            "code": "RR",
+            "name": "Đồng Bằng Sông Hồng"
+        },
+        {
+            "code": "SC",
+            "name": "Nam Trung Bộ Việt Nam"
+        },
+        {
+            "code": "SE",
+            "name": "Đông Nam Bộ Việt Nam"
+        }
+    ],
+    "errors": null
+}

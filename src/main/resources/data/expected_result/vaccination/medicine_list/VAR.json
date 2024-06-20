@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      },
+      {
+        "medId": "VARILRX0.5",
+        "name": "VARILRX0.5",
+        "description": "(HBV)"
+      },
+      {
+        "medId": "VARIVAX0.5",
+        "name": "VARIVAX0.5",
+        "description": "To prevent chicken pox in children and adults"
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}

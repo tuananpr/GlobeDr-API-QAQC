@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      },
+      {
+        "medId": "TPHIMVI0.5",
+        "name": "TPHIMVI0.5",
+        "description": "Typhoid fever"
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}

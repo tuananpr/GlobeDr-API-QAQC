@@ -1,0 +1,260 @@
+{
+  "utcTime0": "2021-12-29T02:21:55.260",
+  "success": true,
+  "message": null,
+  "data": [
+    {
+      "code": "AG",
+      "name": "An Giang"
+    },
+    {
+      "code": "BD",
+      "name": "Bình Dương"
+    },
+    {
+      "code": "BĐ",
+      "name": "Bình Định"
+    },
+    {
+      "code": "BG",
+      "name": "Bắc Giang"
+    },
+    {
+      "code": "BK",
+      "name": "Bắc Kạn"
+    },
+    {
+      "code": "BL",
+      "name": "Bạc Liêu"
+    },
+    {
+      "code": "BN",
+      "name": "Bắc Ninh"
+    },
+    {
+      "code": "BP",
+      "name": "Bình Phước"
+    },
+    {
+      "code": "BT",
+      "name": "Bình Thuận"
+    },
+    {
+      "code": "BTR",
+      "name": "Bến Tre"
+    },
+    {
+      "code": "BV",
+      "name": "Bà Rịa - Vũng Tàu"
+    },
+    {
+      "code": "CB",
+      "name": "Cao Bằng"
+    },
+    {
+      "code": "CM",
+      "name": "Cà Mau"
+    },
+    {
+      "code": "CT",
+      "name": "Cần Thơ"
+    },
+    {
+      "code": "ĐB",
+      "name": "Điện Biên"
+    },
+    {
+      "code": "ĐL",
+      "name": "Đắk Lắk"
+    },
+    {
+      "code": "ĐN",
+      "name": "Đồng Nai"
+    },
+    {
+      "code": "ĐNA",
+      "name": "Đà Nẵng"
+    },
+    {
+      "code": "ĐNO",
+      "name": "Đắk Nông"
+    },
+    {
+      "code": "ĐT",
+      "name": "Đồng Tháp"
+    },
+    {
+      "code": "GL",
+      "name": "Gia Lai"
+    },
+    {
+      "code": "HB",
+      "name": "Hòa Bình"
+    },
+    {
+      "code": "HCM",
+      "name": "Hồ Chí Minh"
+    },
+    {
+      "code": "HD",
+      "name": "Hải Dương"
+    },
+    {
+      "code": "HG",
+      "name": "Hà Giang"
+    },
+    {
+      "code": "HGI",
+      "name": "Hậu Giang"
+    },
+    {
+      "code": "HN",
+      "name": "Hà Nội"
+    },
+    {
+      "code": "HNA",
+      "name": "Hà Nam"
+    },
+    {
+      "code": "HP",
+      "name": "Hải Phòng"
+    },
+    {
+      "code": "HT",
+      "name": "Hà Tĩnh"
+    },
+    {
+      "code": "HY",
+      "name": "Hưng Yên"
+    },
+    {
+      "code": "KG",
+      "name": "Kiên Giang"
+    },
+    {
+      "code": "KH",
+      "name": "Khánh Hòa"
+    },
+    {
+      "code": "KT",
+      "name": "Kon Tum"
+    },
+    {
+      "code": "LA",
+      "name": "Long An"
+    },
+    {
+      "code": "LC",
+      "name": "Lai Châu"
+    },
+    {
+      "code": "LCA",
+      "name": "Lào Cai"
+    },
+    {
+      "code": "LĐ",
+      "name": "Lâm Đồng"
+    },
+    {
+      "code": "LS",
+      "name": "Lạng Sơn"
+    },
+    {
+      "code": "NA",
+      "name": "Nghệ An"
+    },
+    {
+      "code": "NB",
+      "name": "Ninh Bình"
+    },
+    {
+      "code": "NÐ",
+      "name": "Nam Định"
+    },
+    {
+      "code": "NT",
+      "name": "Ninh Thuận"
+    },
+    {
+      "code": "PT",
+      "name": "Phú Thọ"
+    },
+    {
+      "code": "PY",
+      "name": "Phú Yên"
+    },
+    {
+      "code": "QB",
+      "name": "Quảng Bình"
+    },
+    {
+      "code": "QN",
+      "name": "Quảng Ninh"
+    },
+    {
+      "code": "QNA",
+      "name": "Quảng Nam"
+    },
+    {
+      "code": "QNG",
+      "name": "Quảng Ngãi"
+    },
+    {
+      "code": "QT",
+      "name": "Quảng Trị"
+    },
+    {
+      "code": "SL",
+      "name": "Sơn La"
+    },
+    {
+      "code": "ST",
+      "name": "Sóc Trăng"
+    },
+    {
+      "code": "TB",
+      "name": "Thái Bình"
+    },
+    {
+      "code": "TG",
+      "name": "Tiền Giang"
+    },
+    {
+      "code": "TH",
+      "name": "Thanh Hóa"
+    },
+    {
+      "code": "TN",
+      "name": "Tây Ninh"
+    },
+    {
+      "code": "TNG",
+      "name": "Thái Nguyên"
+    },
+    {
+      "code": "TQ",
+      "name": "Tuyên Quang"
+    },
+    {
+      "code": "TTH",
+      "name": "Thừa Thiên - Huế"
+    },
+    {
+      "code": "TV",
+      "name": "Trà Vinh"
+    },
+    {
+      "code": "VL",
+      "name": "Vĩnh Long"
+    },
+    {
+      "code": "VP",
+      "name": "Vĩnh Phúc"
+    },
+    {
+      "code": "YB",
+      "name": "Yên Bái"
+    }
+  ],
+  "errors": null
+}

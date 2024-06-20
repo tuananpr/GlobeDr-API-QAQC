@@ -1,0 +1,81 @@
+{
+  "utcTime0": "2021-10-27T22:33:10.473",
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "texts": [
+          "< 18.5"
+        ],
+        "values": [
+          "14-18.5"
+        ],
+        "status": {
+          "value": "#0078D7",
+          "key": "Underweight",
+          "tag": 2,
+          "color": "#66CAE2_#70DFF2"
+        }
+      },
+      {
+        "texts": [
+          "18.5 - 25"
+        ],
+        "values": [
+          "18.5-25"
+        ],
+        "status": {
+          "value": "#36AF49",
+          "key": "Normal",
+          "tag": 1,
+          "color": "#36AF49_#1BD773"
+        }
+      },
+      {
+        "texts": [
+          "25 - 30"
+        ],
+        "values": [
+          "25-30"
+        ],
+        "status": {
+          "value": "#FEC23E",
+          "key": "Overweight",
+          "tag": 3,
+          "color": "#FEC23E_#FAE633"
+        }
+      },
+      {
+        "texts": [
+          "30 - 40"
+        ],
+        "values": [
+          "30-40"
+        ],
+        "status": {
+          "value": "#FF9100",
+          "key": "Obesity",
+          "tag": 4,
+          "color": "#F16524_#FF985A"
+        }
+      },
+      {
+        "texts": [
+          "> 40"
+        ],
+        "values": [
+          "40"
+        ],
+        "status": {
+          "value": "#E10000",
+          "key": "Morbidly obese",
+          "tag": 5,
+          "color": "#EC1C24_#FF3E3E"
+        }
+      }
+    ],
+    "total": 5
+  },
+  "errors": null
+}

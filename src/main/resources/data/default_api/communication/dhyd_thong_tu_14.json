@@ -1,0 +1,219 @@
+{
+
+	"apiKey": "",
+
+	"healthNewsType": "Tong_ket_Thong_Tu_14",
+
+	"patientInfo": 
+	{
+	     "1": "hai.0767892632",
+      	 "2": "01-01-1991",
+      	 "3": "nam",
+      	 "4": "0767892632",
+      	 "5": "173A Nguyen Van Troi",
+      	 "6": "Ngo Van Hai"
+	},
+
+	"fileContent":
+
+	{
+
+		"1": "Tiền sử bệnh, tật của gia đình",
+
+		"2": "Tiền sử bệnh, tật bản thân",
+
+		"3": "Chiều cao",
+
+		"4": "Cân nặng",
+
+		"5": "Chỉ sổ BMI",
+
+		"6": "Mạch",
+
+		"7": "Huyết áp",
+
+		"8": "Phân loại thể lực:",
+
+		"9": "Tuần hoàn:",
+
+		"10": "Phân loại",
+
+		"11": "Hô hấp",
+
+		"12": "Phân loại",
+
+		"13": "Tiêu hóa",
+
+		"14": "Phân loại",
+
+		"15": "Thận-Tiết niệu",
+
+		"16": "Phân loại",
+
+		"17": "Cơ-xương-khớp",
+
+		"18": "Phân loại",
+
+		"19": "Thần kinh",
+
+		"20": "Phân loại",
+
+		"21": "Tâm thần",
+
+		"22": "Phân loại",
+
+		"75": "Nội tiết",
+
+		"76": "Phân loại",
+
+		"23": "Ngoại khoa",
+
+		"24": "Phân loại",
+
+		"25": "Sản phụ khoa",
+
+		"26": "Phân loại",
+
+		"27": "Kết quả khám thị lực: Không kính:",
+
+		"28": "Mắt phải",
+
+		"29": "Mắt trái",
+
+		"30": "Có kính",
+
+		"31": "Mắt phải",
+
+		"32": "Mắt trái",
+
+		"33": "Các bệnh về mắt (nếu có):",
+
+		"34": "Phân loại",
+
+		"35": "Kết quả khám thính lực:",
+
+		"36": "Tai trái:",    
+
+		"37": "Nói thường:",
+
+		"38": "Nói thầm:",
+
+		"39": "Tai phải",
+
+		"40": "Nói thường:",
+
+		"41": "Nói thầm:",
+
+		"42": "Các bệnh về tai mũi họng (nếu có)",
+
+		"43": "Phân loại",
+
+		"44": "Kết quả khám:",
+
+		"45": "+ Hàm trên:",
+
+		"46": "+ Hàm dưới:",
+
+		"47": "+ Sức nhai:",
+
+		"48": "Các bệnh về Răng-Hàm-Mặt (nếu có)",
+
+		"49": "Phân loại",
+
+		"50": "Da liễu:",
+
+		"51": "Phân loại",
+
+		"77": "Nhóm máu ABO:",
+
+		"78": "Rh",
+
+		"79": "RBC",
+
+		"80": "Hct",
+
+		"81": "Hb",
+
+		"82": "MCV",
+
+		"83": "WBC",
+
+		"84": "PLT",
+
+		"85": "Glycemia",
+
+		"86": "Creatinin",
+
+		"87": "eGFR",
+
+		"88": "ALT",
+
+		"89": "AST",
+
+		"90": "Bilirubin Total",
+
+		"91": "Direct",
+
+		"92": "Indirect",
+
+		"93": "CholesterolTotal",
+
+		"94": "HDLc",
+
+		"95": "LDLc",
+
+		"96": "Triglycerid",
+
+		"97": "Ion: Na",
+
+		"98": "K",
+
+		"99": "Ca",
+
+		"100": "HbsAg",
+
+		"101": "HBsAb",
+
+		"102": "antiHCV",
+
+		"103": "Nước tiểu (Urine)",
+
+		"104": "Pro",
+
+		"105": "GLU",
+
+		"106": "ERY",
+
+		"107": "Bil",
+
+		"108": "UBG",
+
+		"109": "SG",
+
+		"110": "Xquang ngực thẳng",
+
+		"111": "Điện tim (ECG)",
+
+		"112": "Rung nhĩ",
+
+		"113": "QTc",
+
+		"114": "ms",
+
+		"115": "Siêu âm bụng",
+
+		"116": "Kết quả ECG",
+
+		"117": "Siêu âm tuyến giáp",
+
+		"118": "Siêu âm tim",
+
+		"119": "Đánh giá",
+
+		"71": "Phân loại sức khỏe:",
+
+		"72": "Các bệnh, tật (nếu có):"
+
+	}
+
+}

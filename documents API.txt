@@ -1,0 +1,2 @@
+Xem document theo các link
+https://api-docs.globedr.com/index.html

@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "FLUARIX",
+        "name": "FLUARIX",
+        "description": "INFLUENZA"
+      },
+      {
+        "medId": "INFLUVAC",
+        "name": "INFLUVAC",
+        "description": "Influenza virus"
+      },
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      },
+      {
+        "medId": "VAXGRP0.25",
+        "name": "VAXGRP0.25",
+        "description": "To protect you or your child against influenza (flu)"
+      },
+      {
+        "medId": "VAXIGRI0.5",
+        "name": "VAXIGRI0.5",
+        "description": "Inactivated Influenza Vaccine"
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}

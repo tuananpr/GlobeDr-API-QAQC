@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "MENINGOAC",
+        "name": "MENINGOAC",
+        "description": "To protect against meningococcal disease (a major cause of meningitis) caused by group C Neisseria meningitidis bacteria."
+      },
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}

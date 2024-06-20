@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "AVAXIM80",
+        "name": "AVAXIM80",
+        "description": "Hepatitis A"
+      },
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      },
+      {
+        "medId": "TWINRIX",
+        "name": "Twinrix",
+        "description": "Hepatitis A + B"
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}

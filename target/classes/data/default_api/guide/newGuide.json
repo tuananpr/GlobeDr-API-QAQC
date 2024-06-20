@@ -1,0 +1,27 @@
+{
+  "appScreen": null,
+  "featureApp": null,
+  "titles": [
+    {
+      "language": 0,
+      "content": ""
+    },
+    {
+      "language": 1,
+      "content": ""
+    }
+  ],
+  "descriptions": [
+    {
+      "language": 0,
+      "content": ""
+    },
+    {
+      "language": 1,
+      "content": ""
+    }
+  ],
+  "action": null,
+  "featureAppForAction": null,
+  "isFirst": null
+}

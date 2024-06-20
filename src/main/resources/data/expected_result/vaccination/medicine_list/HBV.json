@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "ENGERIXB10",
+        "name": "ENGERIXB10",
+        "description": "Hepatitis B"
+      },
+      {
+        "medId": "ENGERIXB20",
+        "name": "ENGERIXB20",
+        "description": "Hepatitis B"
+      },
+      {
+        "medId": "EUVAXB10",
+        "name": "EUVAXB10",
+        "description": "Hepatitis B"
+      },
+      {
+        "medId": "EUVAXB20",
+        "name": "EUVAXB20",
+        "description": "Hepatitis B"
+      },
+      {
+        "medId": "IFARXHX0.5",
+        "name": "IFARXHX0.5",
+        "description": "Combined diphtheria, tetanus toxoids, acellular pertussis, hepatitis b, inactivated poliomyelitis, adsorbed conjugated haemophilus influenzae"
+      },
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      },
+      {
+        "medId": "QUINVAXEM",
+        "name": "QUINVAXEM",
+        "description": "To protect against diphtheria, tetanus, pertussis, hepatitis B and Haemophilus influenzae type b infections"
+      },
+      {
+        "medId": "TRITANR0.5",
+        "name": "TRITANR0.5",
+        "description": "Tritanrix HepB is indicated for active immunisation against diphtheria, tetanus, pertussis and hepatitis B"
+      },
+      {
+        "medId": "TWINRIX",
+        "name": "Twinrix",
+        "description": "Hepatitis A + B"
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}

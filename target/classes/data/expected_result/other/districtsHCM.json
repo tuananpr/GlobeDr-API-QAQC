@@ -1,0 +1,96 @@
+{
+  "utcTime0": "2021-12-29T02:23:03.982",
+  "success": true,
+  "message": null,
+  "data": [
+    {
+      "code": "1442",
+      "name": "Quận 1"
+    },
+    {
+      "code": "1444",
+      "name": "Quận 3"
+    },
+    {
+      "code": "1446",
+      "name": "Quận 4"
+    },
+    {
+      "code": "1447",
+      "name": "Quận 5"
+    },
+    {
+      "code": "1448",
+      "name": "Quận 6"
+    },
+    {
+      "code": "1449",
+      "name": "Quận 7"
+    },
+    {
+      "code": "1450",
+      "name": "Quận 8"
+    },
+    {
+      "code": "1452",
+      "name": "Quận 10"
+    },
+    {
+      "code": "1453",
+      "name": "Quận 11"
+    },
+    {
+      "code": "1454",
+      "name": "Quận 12"
+    },
+    {
+      "code": "1455",
+      "name": "Quận Tân Bình"
+    },
+    {
+      "code": "1456",
+      "name": "Quận Tân Phú"
+    },
+    {
+      "code": "1457",
+      "name": "Quận Phú Nhuận"
+    },
+    {
+      "code": "1458",
+      "name": "Quận Bình Tân"
+    },
+    {
+      "code": "1459",
+      "name": "Huyện Hóc Môn"
+    },
+    {
+      "code": "1460",
+      "name": "Huyện Củ Chi"
+    },
+    {
+      "code": "1461",
+      "name": "Quận Gò Vấp"
+    },
+    {
+      "code": "1462",
+      "name": "Quận Bình Thạnh"
+    },
+    {
+      "code": "1533",
+      "name": "Huyện Bình Chánh"
+    },
+    {
+      "code": "1534",
+      "name": "Huyện Nhà Bè"
+    },
+    {
+      "code": "2090",
+      "name": "Huyện Cần Giờ"
+    },
+    {
+      "code": "3695",
+      "name": "Thành Phố Thủ Đức"
+    }
+  ],
+  "errors": null
+}

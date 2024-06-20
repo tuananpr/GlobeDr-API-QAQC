@@ -1,0 +1,4 @@
+
+1/ File private-key-3.pem ở server trả về là dạng pkcs1 nhưng trong code sử dụng là pkcs8 nên cần phải format về dạng pkcs8. 2/ Sử câu lệnh phía dưới
+openssl pkcs8 -topk8 -inform PEM -in "resources/private-key-pkcs1.pem" -out "resources/private-key-pkcs8.pem" -nocrypt
+3/ Kết quả là trả về là file private-key-pkcs8.pem

@@ -1,0 +1,72 @@
+{
+  "utcTime0": "2021-12-29T03:04:34.331",
+  "success": true,
+  "message": null,
+  "data": [
+    {
+      "code": "21301",
+      "name": "Phường 1"
+    },
+    {
+      "code": "21302",
+      "name": "Phường 3"
+    },
+    {
+      "code": "21303",
+      "name": "Phường 4"
+    },
+    {
+      "code": "21304",
+      "name": "Phường 5"
+    },
+    {
+      "code": "21305",
+      "name": "Phường 7"
+    },
+    {
+      "code": "21306",
+      "name": "Phường 10"
+    },
+    {
+      "code": "21307",
+      "name": "Phường 11"
+    },
+    {
+      "code": "21308",
+      "name": "Phường 12"
+    },
+    {
+      "code": "21309",
+      "name": "Phường 13"
+    },
+    {
+      "code": "21310",
+      "name": "Phường 14"
+    },
+    {
+      "code": "21311",
+      "name": "Phường 15"
+    },
+    {
+      "code": "21312",
+      "name": "Phường 16"
+    },
+    {
+      "code": "21313",
+      "name": "Phường 17"
+    },
+    {
+      "code": "21314",
+      "name": "Phường 6"
+    },
+    {
+      "code": "21315",
+      "name": "Phường 8"
+    },
+    {
+      "code": "21316",
+      "name": "Phường 9"
+    }
+  ],
+  "errors": null
+}

@@ -1,0 +1,6667 @@
+{
+  "utcTime0": "2022-03-08T23:55:35.584",
+  "success": true,
+  "message": null,
+  "data": {
+    "enums": {
+      "appScreen": {
+        "Home": 1,
+        "MyHealth": 2,
+        "AskDoctor": 3
+      },
+      "featuresApp": {
+        "MyHealth": 1,
+        "SelectAccount": 2,
+        "HealthHistory": 3,
+        "Documents": 4,
+        "Immunization": 5,
+        "BMI": 6,
+        "BloodPressure": 7,
+        "BloodGlucose": 8,
+        "AskDoctor": 50,
+        "Appointment": 100,
+        "BuyMedicine": 150,
+        "MedicalTest": 200,
+        "Article": 250,
+        "Chat": 300,
+        "Voucher": 400,
+        "ScanQRCode": 450,
+        "Connection": 500,
+        "UserProfile": 550,
+        "Notification": 600,
+        "SignIn": 650,
+        "More": 999
+      },
+      "actionGuideApp": {
+        "NextStep": 1,
+        "GoToPage": 2,
+        "End": 3
+      },
+      "language": {
+        "English": 0,
+        "Vietnam": 1,
+        "Thailand": 2,
+        "Chinese": 3,
+        "French": 4,
+        "Russia": 5,
+        "Japanese": 6,
+        "Korean": 7
+      },
+      "measurementUnit": {
+        "American": 1,
+        "Metric": 2
+      },
+      "appType": {
+        "User": 1,
+        "Manage": 2,
+        "WebManage": 3
+      },
+      "bloodType": {
+        "A": 1,
+        "B": 2,
+        "AB": 3,
+        "O": 4,
+        "Unspecified": 8
+      },
+      "userType": {
+        "None": 0,
+        "Provider": 1,
+        "Patient": 2,
+        "SysAdmin": 4,
+        "Coordinator": 8,
+        "Approver": 16,
+        "Editor": 32,
+        "AppConfig": 64,
+        "Auditor": 128,
+        "Accountant": 256,
+        "All": 511
+      },
+      "userStatus": {
+        "New": 1,
+        "Active": 2,
+        "Locked": 4,
+        "Pending": 8,
+        "Merged": 16,
+        "Deleted": 32,
+        "ExitSystem": 64
+      },
+      "connectionStatus": {
+        "None": 0,
+        "RequestSent": 1,
+        "Accepted": 4,
+        "Declined": 8,
+        "Suggested": 16,
+        "RequestReceived": 32,
+        "All": 255
+      },
+      "userAttributes": {
+        "None": 0,
+        "ShowTutorial": 1,
+        "DisableMakeConnection": 2,
+        "NonRegistered": 4,
+        "EnableAppointment": 8,
+        "EnableRating": 16,
+        "EnableVideoCall": 32,
+        "Confirmed": 64,
+        "EnableUserVip": 128,
+        "Require2FA": 256,
+        "Support": 512,
+        "InCalling": 1024,
+        "All": 2047
+      },
+      "userFeatureAttributes": {
+        "None": 0,
+        "ChatInbox": 1,
+        "Consult": 2,
+        "Appointment": 4,
+        "Prescription": 8,
+        "JoinedOrgs": 16,
+        "BioProfile": 32,
+        "AccountProfile": 64,
+        "Health": 128,
+        "ALL": 255
+      },
+      "signUpType": {
+        "None": 0,
+        "FB_Web": 1,
+        "FB_Mobile": 2,
+        "GPlus_Web": 3,
+        "GPlus_Mobile": 4,
+        "ClaimByUser": 5,
+        "Invited": 6,
+        "SMS": 7,
+        "Twitter_Web": 8,
+        "Twitter_Mobile": 9,
+        "DeepLink": 10,
+        "Apple_Web": 11,
+        "Apple_Mobile": 12,
+        "DoctorOrg": 13,
+        "Zalo_Web": 14,
+        "Zalo_Mobile": 15,
+        "GPlusAdvance": 16
+      },
+      "verifyType": {
+        "None": 0,
+        "SignUp": 1,
+        "Verification": 2,
+        "UserClaimed": 3,
+        "RecoveryPasswd": 4,
+        "ChangeGdrLogin": 5,
+        "UpdateUserPhone": 6
+      },
+      "userProfession": {
+        "Doctor": 1,
+        "Dentist": 2,
+        "NursePractitioner": 4,
+        "Nurse": 8,
+        "Owner": 16,
+        "Pharmacist": 32,
+        "Others": 128,
+        "All": 255
+      },
+      "gender": {
+        "Male": 1,
+        "Female": 2,
+        "Unspecified": 4,
+        "All": 255
+      },
+      "carerType": {
+        "Patient": 1,
+        "Parent": 2,
+        "Child": 4,
+        "Relative": 8,
+        "ShareEdit": 16,
+        "ShareView": 32,
+        "ShareDoctor": 64,
+        "Others": 128,
+        "ShareOrgEdit": 256,
+        "ShareOrgView": 512
+      },
+      "uidMaxLength": 50,
+      "categoryType": {
+        "HotTitle": 1,
+        "Normal": 2
+      },
+      "categoryStatus": {
+        "None": 0,
+        "Active": 1,
+        "New": 2,
+        "Closed": 4
+      },
+      "postStatus": {
+        "New": 0,
+        "Open": 1,
+        "Accepted": 2,
+        "Closed": 4,
+        "Submitted": 8,
+        "Reviewed": 16,
+        "Rejected": 32,
+        "Assigned": 64,
+        "Late": 128,
+        "Completed": 256,
+        "Draft": 512,
+        "Missed": 1024,
+        "AppointmentScheduled": 2048,
+        "AppointmentCancel": 4096,
+        "Spam": 8192,
+        "All": 16383
+      },
+      "postSource": {
+        "None": 0,
+        "User": 1,
+        "System": 2,
+        "News": 4,
+        "Forum": 8,
+        "Consultant": 16
+      },
+      "vaccineStatus": {
+        "MissedVac": 1,
+        "NextVac": 2,
+        "Vaccinated": 3,
+        "FutureVac": 4
+      },
+      "postMsgType": {
+        "System": 1,
+        "CurrentUser": 2,
+        "Other": 4,
+        "AppointmentCancel": 8,
+        "AppointmentSetTime": 16
+      },
+      "platform": {
+        "APNS": 1,
+        "GCM": 2
+      },
+      "notiType": {
+        "None": 0,
+        "SignIn": 1,
+        "Post": 11,
+        "PostDetail": 12,
+        "Comment": 13,
+        "ArticleDetail": 14,
+        "ArticleComment": 16,
+        "NewsComment": 17,
+        "NewsDetail": 18,
+        "Article": 21,
+        "News": 22,
+        "Forum": 23,
+        "ArticleNew": 24,
+        "RequestConnection": 31,
+        "MyConnection": 32,
+        "UpdateAfterVisit": 34,
+        "AppointmentAddNew": 35,
+        "AppointmentCancel": 36,
+        "AppointmentSetTime": 37,
+        "AppointmentNTPNew": 38,
+        "AppointmentAssignDoctor": 39,
+        "VoucherNew": 40,
+        "Message": 41,
+        "NotiViewMsg": 42,
+        "UpdateHealthDoc": 43,
+        "UpdateHealthHistory": 44,
+        "UpdateVaccine": 45,
+        "UpdateBMI": 46,
+        "UpdatePressure": 47,
+        "UpdateGlucose": 48,
+        "UpdateGrowthTaget": 49,
+        "UpdateBlood": 50,
+        "UpdateProfile": 51,
+        "SharedSub": 52,
+        "DeclineSharedSub": 53,
+        "UnSharedSub": 54,
+        "DeleteSubAccount": 55,
+        "AppointmentDortorDecline": 57,
+        "AppointmentConfirm": 58,
+        "AppointmentToDoctor": 59,
+        "AppointmentScheduledDoctor": 60,
+        "MedHistAccess": 61,
+        "OrgSendHealthDoc": 62,
+        "OrgUpdateVaccine": 63,
+        "NotiToProvider": 70,
+        "AskToGlobedrDoctor": 71,
+        "AssignProvider": 72,
+        "RemoveAssign": 73,
+        "Accept": 74,
+        "Decline": 75,
+        "SubmitToAuditor": 76,
+        "AddCommentConsult": 77,
+        "Approve": 78,
+        "Reject": 79,
+        "PostClose": 80,
+        "Order": 81,
+        "OrderAddnew": 82,
+        "OrderCancel": 83,
+        "OrderSetPrice": 84,
+        "OrderTakenSample": 85,
+        "OrderUpResult": 86,
+        "OrderProductAddnew": 87,
+        "OrderDone": 88,
+        "PostSpam": 90,
+        "Giftcard": 91,
+        "GiftBox": 92,
+        "Reset": 99,
+        "Others": 100,
+        "ChangeRole": 101,
+        "RemoveManageOrg": 102,
+        "ChatCreate": 110,
+        "ChatJoin": 111,
+        "ChatLeft": 112,
+        "ChatSetName": 113,
+        "ChatSetAvatar": 114,
+        "ChatMsgSend": 115,
+        "ChatMsgDelete": 116,
+        "ChatMsgSetSeen": 117,
+        "ChatMsgSetEmotion": 118,
+        "ChatMsgDocSend": 119,
+        "ChatMsgDocDelete": 120,
+        "ChatMsgDocSetEmotion": 121,
+        "ChatSendCampaign": 122,
+        "ChatRemoveRecipient": 123,
+        "ChatSendPostForum": 124,
+        "ChatCampaignVoucher": 125,
+        "ChatPickUp": 126,
+        "ChatDonePickUp": 127,
+        "AddToGroup": 130,
+        "RemoveFromGroup": 131,
+        "RemoveGroup": 132,
+        "RemoveConnection": 133,
+        "RemoveFromOrg": 135,
+        "UserJoinOrg": 136,
+        "Completed": 137,
+        "RejectDoctor": 138,
+        "ReminderDoctor": 139,
+        "ReminderAuditor": 140,
+        "OrgJoinUser": 141,
+        "AcceptConnection": 142,
+        "DeclineConnection": 143,
+        "TelemedicineCall": 144,
+        "TelemedicineMissed": 145,
+        "SilentTelemedicineMissed": 146,
+        "ReminderPatient": 147,
+        "TelemedicineAnotherAccepted": 170,
+        "TelemedicineAnotherDecline": 171,
+        "TelemedicineAnotherCall": 172,
+        "WalletAddPoint": 180,
+        "PaymentNoti": 181,
+        "GiveBack": 200
+      },
+      "notiGroup": {
+        "All": 0,
+        "SystemNoti": 1,
+        "ConsultantNoti": 2,
+        "ChatNoti": 3,
+        "ConnectionNoti": 4,
+        "HealthNoti": 5,
+        "Appointment": 6
+      },
+      "sourceNotiScreen": {
+        "None": 0,
+        "Consult": 1,
+        "Forum": 2,
+        "Chat": 4,
+        "Voucher": 8,
+        "Connection": 9,
+        "Health": 10,
+        "Telemedicine": 11,
+        "Vaccination": 13,
+        "Subaccount": 14,
+        "Appointment": 15,
+        "OrderMedicine": 16,
+        "OrderProductService": 17,
+        "OrderMedicalTest": 18,
+        "Order": 19,
+        "WorkSchedule": 21,
+        "Wallet": 22,
+        "MedicalTestTakenSample": 23
+      },
+      "postType": {
+        "Public": 1,
+        "Private": 2,
+        "ToAll": 4,
+        "System": 8,
+        "AboutUs": 9,
+        "TermOfService": 10,
+        "AboutSetting": 11,
+        "Immunization": 13,
+        "AboutImmunization": 14,
+        "ImmuByAge": 15,
+        "ImmuByVac": 16,
+        "ImmuBook": 17,
+        "ImmuPlan4Pregnant": 18,
+        "AboutConsult": 20,
+        "HowToInstallGlobedr": 21,
+        "HowToAskNewQuestion": 22,
+        "HowToAppointmentHospital": 23,
+        "BecomeDoctorGlobeDr": 24,
+        "AboutHealth": 30,
+        "AboutHealthDoc": 31,
+        "AboutHealthHist": 32,
+        "ChildDevelopMilestones": 33,
+        "AboutBMI": 34,
+        "AboutGrowthChart": 35,
+        "AboutBloodPressure": 36,
+        "AboutBloodGlucose": 37,
+        "AboutBMIChild": 38,
+        "SupportVoucher": 40,
+        "AboutBestFunction": 45,
+        "ComprehensiveHealthCare": 46,
+        "ChangeLog": 47,
+        "FAQ": 48,
+        "GlobeDrMemberManager": 49,
+        "CooperateBenefits": 50,
+        "JoinWithGlobeDr": 51,
+        "GlobeDrBusinessDoctor": 52,
+        "GlobeDrEcosystem": 53,
+        "OperationRegulations": 54,
+        "OperationRegulationsWeb": 55,
+        "RegulationsOnPosting": 56,
+        "RegulationsOnPostingWeb": 57,
+        "DisputeSettlementMechanism": 58,
+        "DisputeSettlementMechanismWeb": 59,
+        "TermsOfUsePrivacyPolicyWeb": 60,
+        "Health": 61,
+        "Pharmacy": 62,
+        "ScanQrCode": 63,
+        "MedicalTest": 64,
+        "NormalConsultant": 100,
+        "TelemedicineConsultant": 101,
+        "AppointmentConsultant": 102
+      },
+      "createByTypes": {
+        "None": 0,
+        "User": 1,
+        "Org": 2
+      },
+      "fileTypes": {
+        "Text": 0,
+        "Word": 1,
+        "Excel": 2,
+        "PowerPoint": 3,
+        "Image": 4,
+        "Pdf": 5,
+        "Audio": 6,
+        "Video": 7,
+        "Archive": 8,
+        "Data": 255
+      },
+      "liveChannel": {
+        "None": 0,
+        "Private": 1,
+        "Public": 2,
+        "Presence": 4
+      },
+      "channelType": {
+        "User": 1,
+        "Group": 2,
+        "ToAll": 3,
+        "Org": 4,
+        "Doctor": 5,
+        "System": 6,
+        "Conversation": 7,
+        "Consultant": 8,
+        "ConversationVideoCall": 9
+      },
+      "liveChannelEvent": {
+        "Default": 0,
+        "Notification": 1,
+        "Consult": 2,
+        "Appointment": 3,
+        "Chat": 4,
+        "Online": 8,
+        "client_presence_userStatus_request": 16,
+        "client_presence_userStatus_response": 32
+      },
+      "deepLinkScreen": {
+        "None": 0,
+        "Forum": 1,
+        "Appointment": 2,
+        "User": 3,
+        "Organization": 4,
+        "Voucher": 5,
+        "Consult": 6,
+        "Chat": 9,
+        "Connection": 10,
+        "Health": 11,
+        "Telemedicine": 12,
+        "Vaccination": 13,
+        "Subaccount": 14,
+        "OrderMedicine": 16,
+        "OrderProductService": 17,
+        "OrderMedicalTest": 18,
+        "Order": 19,
+        "WorkSchedule": 21
+      },
+      "deepLinkType": {
+        "None": 0,
+        "SignIn": 1,
+        "Post": 11,
+        "PostDetail": 12,
+        "Comment": 13,
+        "ArticleDetail": 14,
+        "ArticleComment": 16,
+        "NewsComment": 17,
+        "NewsDetail": 18,
+        "Article": 21,
+        "News": 22,
+        "Forum": 23,
+        "ArticleNew": 24,
+        "RequestConnection": 31,
+        "MyConnection": 32,
+        "UpdateAfterVisit": 34,
+        "AppointmentAddNew": 35,
+        "AppointmentCancel": 36,
+        "AppointmentSetTime": 37,
+        "AppointmentNTPNew": 38,
+        "AppointmentAssignDoctor": 39,
+        "VoucherNew": 40,
+        "Message": 41,
+        "NotiViewMsg": 42,
+        "UpdateHealthDoc": 43,
+        "UpdateHealthHistory": 44,
+        "UpdateVaccine": 45,
+        "UpdateBMI": 46,
+        "UpdatePressure": 47,
+        "UpdateGlucose": 48,
+        "UpdateGrowthTaget": 49,
+        "UpdateBlood": 50,
+        "UpdateProfile": 51,
+        "SharedSub": 52,
+        "DeclineSharedSub": 53,
+        "UnSharedSub": 54,
+        "DeleteSubAccount": 55,
+        "AppointmentConfirm": 58,
+        "AppointmentToDoctor": 59,
+        "AppointmentScheduledDoctor": 60,
+        "MedHistAccess": 61,
+        "OrgSendHealthDoc": 62,
+        "OrgUpdateVaccine": 63,
+        "NotiToProvider": 70,
+        "AskToGlobedrDoctor": 71,
+        "AssignProvider": 72,
+        "RemoveAssign": 73,
+        "Accept": 74,
+        "Decline": 75,
+        "SubmitToAuditor": 76,
+        "AddCommentConsult": 77,
+        "Approve": 78,
+        "Reject": 79,
+        "PostClose": 80,
+        "Order": 81,
+        "OrderAddnew": 82,
+        "OrderCancel": 83,
+        "OrderSetPrice": 84,
+        "OrderTakenSample": 85,
+        "OrderUpResult": 86,
+        "OrderProductAddnew": 87,
+        "OrderDone": 88,
+        "Giftcard": 91,
+        "GiftBox": 92,
+        "Reset": 99,
+        "Others": 100,
+        "ChatCreate": 110,
+        "ChatJoin": 111,
+        "ChatLeft": 112,
+        "ChatSetName": 113,
+        "ChatSetAvatar": 114,
+        "ChatMsgSend": 115,
+        "ChatMsgDelete": 116,
+        "ChatMsgSetSeen": 117,
+        "ChatMsgSetEmotion": 118,
+        "ChatMsgDocSend": 119,
+        "ChatMsgDocDelete": 120,
+        "ChatMsgDocSetEmotion": 121,
+        "ChatSendCampaign": 122,
+        "ChatRemoveRecipient": 123,
+        "ChatSendPostForum": 124,
+        "ChatCampaignVoucher": 125,
+        "AddToGroup": 130,
+        "RemoveFromGroup": 131,
+        "RemoveGroup": 132,
+        "RemoveConnection": 133,
+        "RemoveFromOrg": 135,
+        "UserJoinOrg": 136,
+        "Completed": 137,
+        "RejectDoctor": 138,
+        "ReminderDoctor": 139,
+        "ReminderAuditor": 140,
+        "OrgJoinUser": 141,
+        "AcceptConnection": 142,
+        "DeclineConnection": 143,
+        "TelemedicineCall": 144,
+        "TelemedicineMissed": 145,
+        "SilentTelemedicineMissed": 146,
+        "TelemedicineAnotherAccepted": 170,
+        "TelemedicineAnotherDecline": 171,
+        "TelemedicineAnotherCall": 172
+      },
+      "sourceType": {
+        "FromVoucher": 1,
+        "FromSearch": 2,
+        "Other": 4,
+        "FromAppointment": 8,
+        "DeepLink": 16,
+        "FromConsult": 32
+      },
+      "qrCodeType": {
+        "User": 1,
+        "Org": 2,
+        "VoucherView": 3,
+        "VoucherBooked": 4,
+        "Appointment": 5
+      },
+      "timeType": {
+        "OnlyMorning": 1,
+        "OnlyNoon": 2,
+        "Overtime": 4,
+        "Earliest": 8,
+        "AtTime": 16
+      },
+      "weekday": {
+        "Sunday": 0,
+        "Monday": 1,
+        "Tuesday": 2,
+        "Wednesday": 3,
+        "Thursday": 4,
+        "Friday": 5,
+        "Saturday": 6
+      },
+      "deliveryType": {
+        "StorePickup": 1,
+        "ShipTo": 2,
+        "AtLab": 4,
+        "AtHome": 8
+      },
+      "medicalType": {
+        "Prescription": 1,
+        "LabResult": 2,
+        "ImmunizationRecord": 3,
+        "Insurance": 4,
+        "IdCard": 5,
+        "Others": 6,
+        "ClinicVisit": 7,
+        "Appt": 8,
+        "Consult": 9
+      },
+      "docType": {
+        "Prescription": 1,
+        "LabResult": 2,
+        "ImmunizationRecord": 3,
+        "Medical": 4,
+        "MedicalSupplement1": 5,
+        "MedicalSupplement2": 6,
+        "Dental": 7,
+        "Vision": 8,
+        "InsurancePrescription": 9,
+        "DriverLicense": 10,
+        "PassPort": 11,
+        "Others": 12,
+        "ClinicVisit": 13,
+        "VisitObservation": 14,
+        "VisitInstruction": 15,
+        "VisitFollowUp": 16,
+        "ImmuAppt": 17,
+        "PresAppt": 18,
+        "CapillaryAppt": 19,
+        "InsuranceAppt": 20,
+        "IdCardAppt": 21,
+        "MedicalDocConsult": 22
+      },
+      "medicalDocType": {
+        "Prescription": 1,
+        "LabResult": 2,
+        "ImmunizationRecord": 3,
+        "Medical": 4,
+        "MedicalSupplement1": 5,
+        "MedicalSupplement2": 6,
+        "Dental": 7,
+        "Vision": 8,
+        "InsurancePrescription": 9,
+        "DriverLicense": 10,
+        "PassPort": 11,
+        "Others": 12,
+        "ClinicVisit": 13,
+        "VisitObservation": 14,
+        "VisitInstruction": 15,
+        "VisitFollowUp": 16,
+        "ImmuAppt": 17,
+        "PresAppt": 18,
+        "CapillaryAppt": 19,
+        "InsuranceAppt": 20,
+        "IdCardAppt": 21,
+        "MedicalDocConsult": 22
+      },
+      "chatType": {
+        "None": 0,
+        "OrgGroup": 1,
+        "Campaign": 2,
+        "UserPersonal": 4,
+        "UserGroup": 8,
+        "Appointment": 16,
+        "OrderPrescription": 32,
+        "OrderMedicalTest": 64,
+        "CustomerCare": 128,
+        "Order": 256
+      },
+      "chatMsgType": {
+        "None": 0,
+        "Msg": 1,
+        "Campaign": 2,
+        "Voucher": 4,
+        "TopDeal": 8,
+        "VaccineNoti": 16,
+        "CampaignVoucher": 17,
+        "CampaignOther": 18,
+        "Appointment": 32,
+        "AppointmentCancel": 33,
+        "AppointmentSettime": 34,
+        "QrCode": 64,
+        "PostForum": 65,
+        "OrgContact": 66,
+        "Activity": 100,
+        "ShareAccount": 101,
+        "ApptGeneralHospital": 102,
+        "SharePost": 103,
+        "ShareLink": 104,
+        "Order": 128,
+        "OrderProductService": 129
+      },
+      "senderType": {
+        "User": 1,
+        "Org": 2,
+        "System": 128
+      },
+      "recipientType": {
+        "User": 1,
+        "Group": 2,
+        "Org": 4,
+        "Org4Admin": 8
+      },
+      "activityType": {
+        "Emotion": 1,
+        "System": 2,
+        "PickUpStart": 15,
+        "PickUpEnd": 16,
+        "MsgSeen": 20,
+        "SendFile": 25,
+        "CreateChat": 30,
+        "SetChatName": 31,
+        "SetChatAvatar": 32,
+        "AddRecipients": 33,
+        "RemoveRecipients": 34,
+        "LeaveChat": 35,
+        "ShareAccountEdit": 36,
+        "ShareAccountView": 37,
+        "UnShareAccount": 38,
+        "DeclineShare": 39,
+        "ShareOrgEdit": 40,
+        "ShareOrgView": 41,
+        "Appointment": 42,
+        "CancelAppointment": 43,
+        "SetTimeAppointment": 44
+      },
+      "docAttribute": {
+        "None": 0,
+        "Front": 1,
+        "Back": 2
+      },
+      "questionGroupShowType": {
+        "List": 1,
+        "MultiPart": 2
+      },
+      "questionGroupType": {
+        "StatusAtBirth": 1,
+        "LifestyleHealth": 2,
+        "HistoryOfAllergy": 3,
+        "HealthHistory": 4,
+        "HistoryOfDisability": 5,
+        "HistoryFamily": 6,
+        "FamilyPlan": 7,
+        "Other": 8
+      },
+      "questionItemType": {
+        "Checkbox": 0,
+        "Tag": 1,
+        "Text": 3,
+        "OptionText": 4,
+        "Number": 5,
+        "DateTime": 6,
+        "Height": 7,
+        "Weight": 8,
+        "Head": 9
+      },
+      "questionTabType": {
+        "MutilTab": 0,
+        "SingleTab": 1,
+        "OptionSingleTab": 2,
+        "Text": 3,
+        "OptionText": 4,
+        "Number": 5,
+        "DateTime": 6
+      },
+      "healthDataType": {
+        "HeightAndWeigth": 1,
+        "BloodPresure": 2,
+        "CholesterolAndGlucose": 3
+      },
+      "growthChartType": {
+        "Height": 0,
+        "Weight": 1,
+        "HeadCircumference": 2,
+        "BMI": 3
+      },
+      "growthChartAge": {
+        "To24M": 1,
+        "To20Y": 2
+      },
+      "growthChartField": {
+        "P3": 0,
+        "P5": 1,
+        "P10": 2,
+        "P25": 3,
+        "P50": 4,
+        "P75": 5,
+        "P85": 6,
+        "P90": 7,
+        "P95": 8,
+        "P97": 9,
+        "P0": 10,
+        "P100": 11
+      },
+      "healthDataStatus": {
+        "NA": 0,
+        "Normal": 1,
+        "Underweight": 2,
+        "Overweight": 3,
+        "Obesity": 4,
+        "MorbidlyObese": 5,
+        "Hypotension": 10,
+        "Prehypertension": 11,
+        "HypertensionStage1": 12,
+        "HypertensionStage2": 13,
+        "HypertensiveCrisis": 14,
+        "PreDiabetic": 20,
+        "Diabetic": 21,
+        "BorderlineHigh": 30,
+        "High": 31,
+        "LowSugarLevel": 40,
+        "HighSugarLevel": 41
+      },
+      "glucoseMilestones": {
+        "Fasting": 1,
+        "AfterEating": 2,
+        "LongEating": 4
+      },
+      "healthScreenType": {
+        "Immunization": 1,
+        "HealthHistory": 2,
+        "HealthDoc": 4,
+        "PregnantZone": 5,
+        "BMI": 8,
+        "GrowthPercentile": 16,
+        "GrowthTarget": 32,
+        "BloodPressure": 64,
+        "BloodGlucose": 128
+      },
+      "orderType": {
+        "Prescription": 1,
+        "Product": 2,
+        "MedicalTest": 4,
+        "AppointmentService": 8
+      },
+      "orderStatus": {
+        "Draft": 1,
+        "New": 2,
+        "Cancel": 4,
+        "Paid": 8,
+        "Sampled": 16,
+        "HaveResult": 32,
+        "Processing": 64,
+        "WaitingShip": 128,
+        "Shipping": 256,
+        "Rejected": 512,
+        "Completed": 1024,
+        "DoctorIndicated": 2048
+      },
+      "orderProcessType": {
+        "DoctorIndicate": 1,
+        "CreateOrder": 2,
+        "CancelOrder": 4,
+        "SetPrice": 8,
+        "TakenSample": 16,
+        "UpResult": 32,
+        "CancelIndicate": 64,
+        "Done": 128,
+        "AssignTakenSampleStaff": 256
+      },
+      "orgType": {
+        "Hospital": 1,
+        "ClinicOrgType": 2,
+        "Pharmacy": 4,
+        "Dental": 8,
+        "LabAndTest": 16,
+        "Business": 32,
+        "School": 64,
+        "Others": 128,
+        "Factory": 256,
+        "OneDoctorClinic": 512
+      },
+      "orgStatus": {
+        "New": 1,
+        "Active": 2,
+        "Locked": 4,
+        "Deleted": 8,
+        "All": 255
+      },
+      "entityType": {
+        "User": 1,
+        "Organization": 2,
+        "Post": 4,
+        "Voucher": 8,
+        "Application": 16
+      },
+      "orgAttributes": {
+        "None": 0,
+        "CallRoundRobin": 1,
+        "NonRegistered": 2,
+        "EnableShipTo": 32,
+        "EnableSendSMSAppointment": 64,
+        "Confirmed": 128,
+        "EnableVideoCall": 512,
+        "EnableAutoAddUser": 1024,
+        "EnableManagePost": 4096,
+        "EnableManageVoucher": 16384,
+        "JoinedGdr": 32768,
+        "AutoReminderVaccine": 65536,
+        "ManualReminderVaccine": 131072,
+        "EnablePayment": 524288,
+        "All": 1048575
+      },
+      "currency": {
+        "None": 0,
+        "USD": 1,
+        "VND": 2
+      },
+      "orgStaffStatus": {
+        "New": 1,
+        "Active": 2,
+        "Locked": 4,
+        "Pending": 8,
+        "All": 255
+      },
+      "orgStaffAttributes": {
+        "None": 0,
+        "Manager": 1,
+        "Admin": 2,
+        "Content": 4,
+        "Reception": 8,
+        "Marketing": 16,
+        "Nurse": 32,
+        "CustomerCare": 64
+      },
+      "orgFeatureAttributes": {
+        "None": 0,
+        "OrgInfo": 1,
+        "Deparment": 2,
+        "Member": 4,
+        "Specialty": 8,
+        "QRCode": 16,
+        "SettingInterface": 32,
+        "Rating": 64,
+        "Post": 128,
+        "Voucher": 256,
+        "ChatInbox": 512,
+        "ChatCampaign": 1024,
+        "ProductService": 2048,
+        "Order": 4096,
+        "OrderMedicalTest": 8192,
+        "Appointment": 16384,
+        "AppointmentSetting": 32768,
+        "Branch": 65536,
+        "OrderPrescription": 131072,
+        "Consult": 262144,
+        "ConsultConfig": 524288,
+        "MedicalTestConfig": 1048576,
+        "MedicalTestTakenSample": 2097152,
+        "ALL": 4194303
+      },
+      "reportMemberTypes": {
+        "ToDay": 1,
+        "Last3Days": 2,
+        "Last10Days": 4,
+        "Last30Days": 8,
+        "DateRange": 16
+      },
+      "memberStatus": {
+        "None": 1,
+        "Active": 2,
+        "Deleted": 4
+      },
+      "userBioDataType": {
+        "Bio": 1,
+        "Education": 2,
+        "Experience": 4,
+        "Awards": 8,
+        "Associations": 16,
+        "Affiliation": 32,
+        "Publications": 64,
+        "All": 255
+      },
+      "userDocType": {
+        "Diploma": 1,
+        "License": 2,
+        "Certificate": 4,
+        "Others": 128
+      },
+      "voucherStatus": {
+        "None": 0,
+        "New": 1,
+        "Active": 2,
+        "InActive": 4,
+        "Draft": 8
+      },
+      "giftCardStatus": {
+        "None": 0,
+        "New": 1,
+        "Sold": 2,
+        "Used": 4
+      },
+      "voucherType": {
+        "Link": 1,
+        "Normal": 2
+      },
+      "imageSize": {
+        "avatar": 1,
+        "thumbnail": 2,
+        "wd100": 100,
+        "wd200": 200,
+        "wd300": 300,
+        "wd400": 400,
+        "wd500": 500
+      },
+      "advertLinkType": {
+        "None": 0,
+        "Article": 1,
+        "Provider": 2,
+        "Organization": 4,
+        "Voucher": 8,
+        "All": 15
+      },
+      "advertShowOnMedia": {
+        "None": 0,
+        "Web": 1,
+        "App": 2,
+        "All": 255
+      },
+      "advertStatus": {
+        "None": 0,
+        "Pending": 1,
+        "Active": 2,
+        "Rejected": 4
+      },
+      "advertShowAtScreen": {
+        "Homepage": 1,
+        "Articles": 2,
+        "All": 3
+      },
+      "advertShowAtPosition": {
+        "Top": 1,
+        "Bottom": 2,
+        "Left": 4,
+        "Right": 8,
+        "InList": 16,
+        "All": 255
+      },
+      "advertSourceType": {
+        "None": 0,
+        "External": 1,
+        "GdrItem": 2
+      },
+      "changeLogStatus": {
+        "None": 0,
+        "Pending": 1,
+        "Active": 2,
+        "Rejected": 4
+      },
+      "changeLogLinkType": {
+        "Article": 1,
+        "Voucher": 2,
+        "AppVersion": 4
+      },
+      "sponsorStatus": {
+        "Active": 1,
+        "InActive": 2
+      },
+      "sponsorType": {
+        "Diamond": 1,
+        "Gold": 2,
+        "Bronze": 4
+      },
+      "pageAction": {
+        "PostDetail": 1,
+        "ConversationDetail": 2,
+        "ConsultantDetail": 3,
+        "UserProfile": 4,
+        "OrgProfile": 5
+      },
+      "visitType": {
+        "DeepLink": 1,
+        "Org": 2,
+        "Consult": 4
+      },
+      "visitStatus": {
+        "Active": 1,
+        "InActive": 2
+      },
+      "visitAccessType": {
+        "Org": 1,
+        "Provider": 2,
+        "IssuesObservation": 4,
+        "VisitSubclinical": 8,
+        "Medication": 16,
+        "Instruction": 32,
+        "Auditor": 64
+      },
+      "videoCallStatus": {
+        "Accepted": 1,
+        "Decline": 2,
+        "Missed": 3,
+        "End": 4,
+        "AnotherAccepted": 5,
+        "Connected": 6
+      },
+      "appointmentType": {
+        "VisitInPerson": 1,
+        "VisitVideoCall": 2,
+        "FirstTimeExamination": 4,
+        "ReExamination": 8,
+        "PhysicalExamination": 16,
+        "TelemedicineExamination": 32,
+        "OnlineConsultant": 64,
+        "HomeMedicalService": 128,
+        "ImmunizationExamination": 256,
+        "VisitAtOneDoctorClinic": 512,
+        "VisitAtSmallPolyClinic": 1024
+      },
+      "appointmentStatus": {
+        "New": 1,
+        "Scheduled": 2,
+        "Cancel": 4,
+        "Visited": 8,
+        "Unpaid": 16,
+        "NotPresent": 32,
+        "NotFullInfo": 64,
+        "Done": 128,
+        "MissAppt": 256
+      },
+      "examinationReason": {
+        "GoToWork": 1,
+        "RegisterDriverLicense": 2,
+        "BusinessContract": 3,
+        "Others": 255
+      },
+      "homeMedicalServiceType": {
+        "VisitExamination": 1,
+        "GetSampleTest": 2,
+        "WoundCare": 3,
+        "Others": 255
+      },
+      "controlTypeAppt": {
+        "OrgExamination": 1,
+        "AppointmentType": 2,
+        "ExaminationDate": 3,
+        "Specialty": 4,
+        "Doctor": 5,
+        "ExaminationReason": 6,
+        "Notes": 7,
+        "HealthInfo": 8,
+        "LastPrescription": 9,
+        "CapillaryMeasurements": 10,
+        "ImmuUpload": 11,
+        "ExaminationAddress": 12,
+        "HomeMedicalServiceType": 13,
+        "PhoneContact": 14,
+        "CriteriaFirstExamination": 15,
+        "ExaminationDateTime": 16,
+        "ExaminationReasonText": 17,
+        "AppointmentOrgService": 18,
+        "Country": 20,
+        "City": 21,
+        "District": 22,
+        "Ward": 23
+      },
+      "appointmentConfigAttributes": {
+        "None": 0,
+        "IsAllowDoctorUpdateStatus": 1,
+        "IsShowConfirmPatientInfo": 2,
+        "IsRequireHealthInfo": 4
+      },
+      "userPlatform": {
+        "Web": 1,
+        "Android": 2,
+        "IOS": 3
+      },
+      "productCategoryStatus": {
+        "New": 1,
+        "Active": 2,
+        "InActive": 4
+      },
+      "productServiceType": {
+        "Product": 1,
+        "Service": 2,
+        "MedicalTest": 4,
+        "AppointmentSystem": 8,
+        "AppointmentOrg": 16,
+        "AppUsageTime": 32
+      },
+      "paymentType": {
+        "Payoo": 1,
+        "COD": 2
+      },
+      "pageDashboard": {
+        "PageSystemAdmin": 1,
+        "PageApprover": 2,
+        "PageManageOrg": 4,
+        "PageMedicalBussiness": 8,
+        "PageProfile": 16
+      },
+      "businessFeature": {
+        "FeatureChat": 1,
+        "FeatureAppointment": 2,
+        "FeatureCoordinator": 4,
+        "FeatureAuditor": 8,
+        "FeatureProvider": 16,
+        "FeatureExportDataConsult": 32,
+        "FeatureFeedback": 64,
+        "WorkSchedule": 128,
+        "FeatureDrTransferPoint": 256,
+        "FeatureReportFees": 512
+      },
+      "systemAdminFeature": {
+        "FeatureMember": 1,
+        "FeatureOrg": 2,
+        "FeatureGlobedrConfig": 4,
+        "FeatureSponsors": 8,
+        "FeatureSpecialty": 16
+      },
+      "approverFeature": {
+        "FeatureVoucher": 1,
+        "FeatureArticle": 2,
+        "FeatureChangelog": 4,
+        "FeatureLanguageTranslator": 8,
+        "FeatureUserFeedback": 16,
+        "FeatureInstructions": 32
+      },
+      "consultMsgType": {
+        "Appointment": 1,
+        "Patient": 2,
+        "AppointmentCancel": 4,
+        "AppointmentSetTime": 8,
+        "TelemedicineCall": 16,
+        "VisitVideoCall": 32,
+        "DoctorIndicate": 64,
+        "IndicateOrder": 128,
+        "UpdateResultMedicalTest": 256,
+        "AppointmentTelemedicine": 512,
+        "HealthDoc": 1024,
+        "updateResultMedicalTest": 256,
+        "appointmentTelemedicine": 512,
+        "healthDoc": 1024
+      },
+      "loginBySocialNetwork": {
+        "Facebook": 1,
+        "Google": 2,
+        "Apple": 4,
+        "Zalo": 8
+      },
+      "pointActivity": {
+        "BuyPointPntAct": 1,
+        "UploadAvatarPntAct": 2,
+        "UpdateProfilePntAct": 4,
+        "TransferPntAct": 8,
+        "GiftPointPntAct": 16,
+        "NormalConsultantPntAct": 32,
+        "VideoConsultantPntAct": 64,
+        "RefundPntAct": 128,
+        "ManualRefundPntAct": 256,
+        "DailyActiveUserPntAct": 512,
+        "GdrMemberPntAct": 1024,
+        "GiftPoint2PntAct": 2048,
+        "UsageAppPointPntAct": 4096
+      },
+      "walletStatus": {
+        "ReceivedWalletStatus": 1,
+        "UsedWalletStatus": 2,
+        "AllWalletStatus": 4
+      },
+      "clientStatus": {
+        "Unknown": 0,
+        "Online": 1,
+        "Offline": 2,
+        "Busy": 4
+      },
+      "presentEvents": {
+        "client-presence-userStatus-request": 16,
+        "client-presence-userStatus-response": 32
+      },
+      "videoCallType": {
+        "Telemedicine": 1,
+        "Chat": 2
+      },
+      "reportFeesType": {
+        "VideoConsultant": 1,
+        "NormalConsultant": 2,
+        "IndicateMedicalTest": 4
+      }
+    },
+    "settings": {
+      "passwordMinLength": 6,
+      "passwordMaxLength": 128,
+      "phoneMinLength": 6,
+      "phoneMaxLength": 15,
+      "emailMaxLength": 50,
+      "postCodeMaxLength": 10,
+      "deviceIdMaxLength": 100,
+      "displayNameMaxLength": 50,
+      "verifyCodeTime": 60,
+      "imageTypes": [
+        "*.jpg",
+        "*.jpeg",
+        "*.png",
+        "*.webp",
+        "*.heic",
+        "*.heif"
+      ],
+      "audioTypes": [
+        "*.mp3"
+      ],
+      "videoTypes": [
+        "*.mp4"
+      ],
+      "maxImageSize": 25,
+      "maxAudioSize": 25,
+      "maxVideoSize": 25,
+      "maxUploadPartSize": 25,
+      "msgMinWord": 10,
+      "deepLink": "gdr://app",
+      "growthChartColor": "#69C1EF_#5D96E1",
+      "growthTargetColor": "#FFC681_#FF985A",
+      "healthDeclarationLink": "https://tokhaiyte.vn",
+      "pregnantAge": 20,
+      "fileExtMedicalDocs": [
+        "*.jpg",
+        "*.jpeg",
+        "*.png",
+        "*.pdf",
+        "*.doc"
+      ],
+      "fileTypesBio": [
+        "*.jpg",
+        "*.jpeg",
+        "*.png"
+      ],
+      "enableTelemedicine": true,
+      "maxTimeTelemedicinePerDay": 2,
+      "connectionTimeoutInSecond": 60,
+      "timeBeforeReminder": 3,
+      "expiryVideoTime": 10000,
+      "phoneSupport": "+8428 73006880",
+      "userSigSupport": "37676A4A6B535154614737626F31786A677667342F773D3D"
+    },
+    "list": {
+      "en": {
+        "language": [
+          {
+            "value": "0",
+            "text": "English",
+            "tag": 0
+          },
+          {
+            "value": "1",
+            "text": "vietnamese",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Thailand",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Chinese",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "French",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "Russia",
+            "tag": 5
+          },
+          {
+            "value": "6",
+            "text": "Japanese",
+            "tag": 6
+          },
+          {
+            "value": "7",
+            "text": "Korean",
+            "tag": 7
+          }
+        ],
+        "gender": [
+          {
+            "value": "1",
+            "text": "Male",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Female",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Unspecified",
+            "tag": 4
+          }
+        ],
+        "carerType": [
+          {
+            "value": "1",
+            "text": "Patient",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Parent",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Child",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Relative",
+            "tag": 8
+          },
+          {
+            "value": "128",
+            "text": "Others",
+            "tag": 128
+          }
+        ],
+        "carerTypeFull": [
+          {
+            "value": "1",
+            "text": "Patient",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Parent",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Child",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Relative",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "View & edit",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "View only",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?shareDoctor",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Others",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "View & edit",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "View only",
+            "tag": 512
+          },
+          {
+            "value": "0",
+            "text": "Me",
+            "tag": 0
+          }
+        ],
+        "carerTypeFullFamily": [
+          {
+            "value": "1",
+            "text": "Patient",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Parent",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Child",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Relative",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Shared",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Shared",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?shareDoctor",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Others",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Shared",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Shared",
+            "tag": 512
+          },
+          {
+            "value": "0",
+            "text": "Me",
+            "tag": 0
+          }
+        ],
+        "forumCategoryType": [
+          {
+            "value": "1",
+            "text": "Featured",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Normal",
+            "tag": 2
+          }
+        ],
+        "forumCategoryStatus": [
+          {
+            "value": "1",
+            "text": "Active",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "New",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Closed",
+            "tag": 4
+          }
+        ],
+        "forumPostStatus": [
+          {
+            "value": "0",
+            "text": "New",
+            "tag": 0
+          },
+          {
+            "value": "1",
+            "text": "Received",
+            "tag": 1
+          },
+          {
+            "value": "4",
+            "text": "Closed",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Submited",
+            "tag": 8
+          },
+          {
+            "value": "32",
+            "text": "Rejected",
+            "tag": 32
+          },
+          {
+            "value": "512",
+            "text": "Draft",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Missed",
+            "tag": 1024
+          },
+          {
+            "value": "2048",
+            "text": "Appointment scheduled",
+            "tag": 2048
+          },
+          {
+            "value": "4096",
+            "text": "Cancelled",
+            "tag": 4096
+          },
+          {
+            "value": "16383",
+            "text": "All",
+            "tag": 16383
+          }
+        ],
+        "postSystemType": [
+          {
+            "isType": false,
+            "value": "9",
+            "text": "About us",
+            "tag": 9
+          },
+          {
+            "isType": false,
+            "value": "10",
+            "text": "Terms of service",
+            "tag": 10
+          },
+          {
+            "isType": false,
+            "value": "11",
+            "text": "About setting",
+            "tag": 11
+          },
+          {
+            "isType": true,
+            "value": "13",
+            "text": "Immunization",
+            "tag": 13
+          },
+          {
+            "isType": false,
+            "value": "14",
+            "text": "About the immunization",
+            "tag": 14
+          },
+          {
+            "isType": false,
+            "value": "15",
+            "text": "Immunization by age",
+            "tag": 15
+          },
+          {
+            "isType": false,
+            "value": "16",
+            "text": "Immunization by vaccination",
+            "tag": 16
+          },
+          {
+            "isType": false,
+            "value": "17",
+            "text": "Immunization record",
+            "tag": 17
+          },
+          {
+            "isType": false,
+            "value": "18",
+            "text": "Pregnancy vaccination",
+            "tag": 18
+          },
+          {
+            "isType": false,
+            "value": "20",
+            "text": "About consult",
+            "tag": 20
+          },
+          {
+            "isType": false,
+            "value": "21",
+            "text": "How to install GlobeDr",
+            "tag": 21
+          },
+          {
+            "isType": false,
+            "value": "22",
+            "text": "How to ask new question",
+            "tag": 22
+          },
+          {
+            "isType": false,
+            "value": "23",
+            "text": "?howToAppointmentHospital",
+            "tag": 23
+          },
+          {
+            "isType": false,
+            "value": "24",
+            "text": "Become a Doctor GlobeDr",
+            "tag": 24
+          },
+          {
+            "isType": false,
+            "value": "30",
+            "text": "About health",
+            "tag": 30
+          },
+          {
+            "isType": false,
+            "value": "31",
+            "text": "About health document",
+            "tag": 31
+          },
+          {
+            "isType": false,
+            "value": "32",
+            "text": "About health history",
+            "tag": 32
+          },
+          {
+            "isType": false,
+            "value": "33",
+            "text": "Developmental milestones",
+            "tag": 33
+          },
+          {
+            "isType": false,
+            "value": "34",
+            "text": "About BMI",
+            "tag": 34
+          },
+          {
+            "isType": false,
+            "value": "35",
+            "text": "About growth chart",
+            "tag": 35
+          },
+          {
+            "isType": false,
+            "value": "36",
+            "text": "About blood pressure",
+            "tag": 36
+          },
+          {
+            "isType": false,
+            "value": "37",
+            "text": "About blood glucose",
+            "tag": 37
+          },
+          {
+            "isType": false,
+            "value": "38",
+            "text": "Children's BMI",
+            "tag": 38
+          },
+          {
+            "isType": false,
+            "value": "40",
+            "text": "Support used voucher",
+            "tag": 40
+          },
+          {
+            "isType": false,
+            "value": "45",
+            "text": "Best function",
+            "tag": 45
+          },
+          {
+            "isType": false,
+            "value": "46",
+            "text": "Comprehensive healthcare",
+            "tag": 46
+          },
+          {
+            "isType": false,
+            "value": "47",
+            "text": "Changelog",
+            "tag": 47
+          },
+          {
+            "isType": false,
+            "value": "48",
+            "text": "FAQ",
+            "tag": 48
+          },
+          {
+            "isType": false,
+            "value": "49",
+            "text": "GlobeDr Member Manager",
+            "tag": 49
+          },
+          {
+            "isType": false,
+            "value": "50",
+            "text": "Cooperation Benefits",
+            "tag": 50
+          },
+          {
+            "isType": false,
+            "value": "51",
+            "text": "Contact Cooperation",
+            "tag": 51
+          },
+          {
+            "isType": false,
+            "value": "52",
+            "text": "GlobeDr Business – Doctor",
+            "tag": 52
+          },
+          {
+            "isType": false,
+            "value": "53",
+            "text": "GlobeDr ecosystem",
+            "tag": 53
+          },
+          {
+            "isType": false,
+            "value": "54",
+            "text": "Operation regulations",
+            "tag": 54
+          },
+          {
+            "isType": false,
+            "value": "55",
+            "text": "Operation regulations for web",
+            "tag": 55
+          },
+          {
+            "isType": false,
+            "value": "56",
+            "text": "Regulations on posting",
+            "tag": 56
+          },
+          {
+            "isType": false,
+            "value": "57",
+            "text": "Regulations on posting for web",
+            "tag": 57
+          },
+          {
+            "isType": false,
+            "value": "58",
+            "text": "Dispute settlement mechanism",
+            "tag": 58
+          },
+          {
+            "isType": false,
+            "value": "59",
+            "text": "Dispute settlement mechanism for web",
+            "tag": 59
+          },
+          {
+            "isType": false,
+            "value": "60",
+            "text": "Terms of Use and Privacy Policy for web",
+            "tag": 60
+          },
+          {
+            "isType": false,
+            "value": "61",
+            "text": "My health",
+            "tag": 61
+          },
+          {
+            "isType": false,
+            "value": "62",
+            "text": "Pharmacy",
+            "tag": 62
+          },
+          {
+            "isType": false,
+            "value": "63",
+            "text": "?scanQrCode",
+            "tag": 63
+          },
+          {
+            "isType": false,
+            "value": "64",
+            "text": "Medical test",
+            "tag": 64
+          }
+        ],
+        "forumPostAdminSortType": [
+          {
+            "value": "1",
+            "text": "?latest",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?latestActivity",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "?mostComments",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "?mostViewers",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "?mostLikes",
+            "tag": 5
+          }
+        ],
+        "userStatus": [
+          {
+            "value": "1",
+            "text": "New",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Active",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Locked",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Pending",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Merged",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Deleted",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?exitSystem",
+            "tag": 64
+          }
+        ],
+        "userType": [
+          {
+            "value": "1",
+            "text": "Provider",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Patient",
+            "tag": 2
+          },
+          {
+            "value": "8",
+            "text": "Coordinator",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Approver",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Editor",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "App configuration",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Auditor",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Accountant",
+            "tag": 256
+          }
+        ],
+        "userFeatureAttribute": [
+          {
+            "value": "1",
+            "text": "Chat",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Ask consultant doctor",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Appointment",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Contact the pharmacy",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Joined Organization",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Biographical profile",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Software account",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Health",
+            "tag": 128
+          }
+        ],
+        "profession": [
+          {
+            "value": "1",
+            "text": "Doctor",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?dentist",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "?nursePractitioner",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?nurse",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Owner",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "?pharmacist",
+            "tag": 32
+          },
+          {
+            "value": "128",
+            "text": "Others",
+            "tag": 128
+          }
+        ],
+        "orgType": [
+          {
+            "value": "1",
+            "text": "Hospital",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Multi-service clinic",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Pharmacy",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Dental",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Lab and Test",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Business",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "School",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Others",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Factory",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Private clinics",
+            "tag": 512
+          }
+        ],
+        "timeTypes": [
+          {
+            "value": "1",
+            "text": "Morning",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Afternoon",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Evening",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Earliest",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "At time",
+            "tag": 16
+          }
+        ],
+        "deliveryTypes": [
+          {
+            "value": "1",
+            "text": "Pickup in store",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Ship to",
+            "tag": 2
+          }
+        ],
+        "sampledMethodTypes": [
+          {
+            "value": "4",
+            "text": "At lab",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "At home",
+            "tag": 8
+          }
+        ],
+        "medicalTypes": [
+          {
+            "value": "2",
+            "text": "Lab & diagnostic results",
+            "tag": 2
+          },
+          {
+            "value": "8",
+            "text": "Appointment",
+            "tag": 8
+          }
+        ],
+        "questionGroupTypes": [
+          {
+            "value": "1",
+            "text": "At birth status",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/statusatbirth.png"
+          },
+          {
+            "value": "2",
+            "text": "Social lifestyle",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/lifestylehealth.png"
+          },
+          {
+            "value": "3",
+            "text": "Allergy",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/historyofallergy.png"
+          },
+          {
+            "value": "4",
+            "text": "Health history",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/healthhistory.png"
+          },
+          {
+            "value": "5",
+            "text": "Disability",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/historyofdisability.png"
+          },
+          {
+            "value": "6",
+            "text": "Family health history",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/historyfamily.png"
+          },
+          {
+            "value": "7",
+            "text": "Family planning",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/familyplan.png"
+          },
+          {
+            "value": "8",
+            "text": "Other",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/other.png"
+          }
+        ],
+        "bloodTypes": [
+          {
+            "value": "1",
+            "text": "a",
+            "tag": "https://files-test.globedr.com/System/Blood/a.png"
+          },
+          {
+            "value": "2",
+            "text": "b",
+            "tag": "https://files-test.globedr.com/System/Blood/b.png"
+          },
+          {
+            "value": "3",
+            "text": "aB",
+            "tag": "https://files-test.globedr.com/System/Blood/ab.png"
+          },
+          {
+            "value": "4",
+            "text": "o",
+            "tag": "https://files-test.globedr.com/System/Blood/o.png"
+          },
+          {
+            "value": "8",
+            "text": "Unspecified",
+            "tag": "https://files-test.globedr.com/System/Blood/unspecified.png"
+          }
+        ],
+        "orderStatus": [
+          {
+            "value": "1",
+            "text": "Draft",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "New",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Cancel",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Paid",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Sampled",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Have result",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?Processing",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "?WaitingShip",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "?Shipping",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Rejected",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Completed",
+            "tag": 1024
+          },
+          {
+            "value": "2048",
+            "text": "?DoctorIndicated",
+            "tag": 2048
+          }
+        ],
+        "orgStatus": [
+          {
+            "value": "1",
+            "text": "New",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Active",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Locked",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Deleted",
+            "tag": 8
+          },
+          {
+            "value": "255",
+            "text": "All",
+            "tag": 255
+          }
+        ],
+        "orgAttribute": [
+          {
+            "value": "1",
+            "text": "Round Robin",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Non Registered",
+            "tag": 2
+          },
+          {
+            "value": "32",
+            "text": "Enable ship to",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Enable send SMS for confirm appointment",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Confirmed",
+            "tag": 128
+          },
+          {
+            "value": "512",
+            "text": "Enable video call",
+            "tag": 512
+          },
+          {
+            "value": "4096",
+            "text": "Enable manage post",
+            "tag": 4096
+          },
+          {
+            "value": "16384",
+            "text": "Enable manage voucher",
+            "tag": 16384
+          },
+          {
+            "value": "32768",
+            "text": "Joined with Globedr",
+            "tag": 32768
+          },
+          {
+            "value": "65536",
+            "text": "Turn on automatic vaccination notification schedule",
+            "tag": 65536
+          },
+          {
+            "value": "131072",
+            "text": "Enable manual vaccination schedule",
+            "tag": 131072
+          },
+          {
+            "value": "524288",
+            "text": "Enable payment",
+            "tag": 524288
+          }
+        ],
+        "currency": [
+          {
+            "value": "1",
+            "text": "USD",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "VNĐ",
+            "tag": 2
+          }
+        ],
+        "orgStaffStatus": [
+          {
+            "value": "1",
+            "text": "New",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?activeMember",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Locked",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Pending",
+            "tag": 8
+          }
+        ],
+        "orgStaffAttributes": [
+          {
+            "value": "1",
+            "text": "Manager",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Admin",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Content",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "reception",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Marketing",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Nurse",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Customer Care",
+            "tag": 64
+          }
+        ],
+        "orgStaffAttributes4AddStaff": [
+          {
+            "value": "2",
+            "text": "Admin",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Content",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "reception",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Marketing",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Nurse",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Customer Care",
+            "tag": 64
+          }
+        ],
+        "orgFeatureAttributes": [
+          {
+            "value": "1",
+            "text": "Organization information",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Department",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Customer relationship management",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Specialty",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "QR Code",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Landing page themes",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Rating",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Post",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Voucher",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Customer Care",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Campaign",
+            "tag": 1024
+          },
+          {
+            "value": "2048",
+            "text": "Product/Service",
+            "tag": 2048
+          },
+          {
+            "value": "4096",
+            "text": "Order",
+            "tag": 4096
+          },
+          {
+            "value": "8192",
+            "text": "Medical Test",
+            "tag": 8192
+          },
+          {
+            "value": "16384",
+            "text": "Appointment list",
+            "tag": 16384
+          },
+          {
+            "value": "131072",
+            "text": "Order Prescription",
+            "tag": 131072
+          },
+          {
+            "value": "262144",
+            "text": "Consultant",
+            "tag": 262144
+          },
+          {
+            "value": "2097152",
+            "text": "?medicalTestTakenSampleFeature",
+            "tag": 2097152
+          }
+        ],
+        "orgFeatureAttributes4Staff": [
+          {
+            "value": "1",
+            "text": "Organization information",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Department",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Customer relationship management",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Specialty",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "QR Code",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Landing page themes",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Rating",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Post",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Voucher",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Customer Care",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Campaign",
+            "tag": 1024
+          },
+          {
+            "value": "2048",
+            "text": "Product/Service",
+            "tag": 2048
+          },
+          {
+            "value": "4096",
+            "text": "Order",
+            "tag": 4096
+          },
+          {
+            "value": "8192",
+            "text": "Medical Test",
+            "tag": 8192
+          },
+          {
+            "value": "16384",
+            "text": "Appointment list",
+            "tag": 16384
+          },
+          {
+            "value": "32768",
+            "text": "Appointment configuration",
+            "tag": 32768
+          },
+          {
+            "value": "65536",
+            "text": "Branch",
+            "tag": 65536
+          },
+          {
+            "value": "131072",
+            "text": "Order Prescription",
+            "tag": 131072
+          },
+          {
+            "value": "524288",
+            "text": "Consult Config",
+            "tag": 524288
+          },
+          {
+            "value": "1048576",
+            "text": "?medicalTestConfigFeature",
+            "tag": 1048576
+          },
+          {
+            "value": "2097152",
+            "text": "?medicalTestTakenSampleFeature",
+            "tag": 2097152
+          }
+        ],
+        "postStatus": [
+          {
+            "value": "1",
+            "text": "Received",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Accepted",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Closed",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Submit for review",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Reviewed",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Added",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Assigned",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Handle late question",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Answered",
+            "tag": 256
+          },
+          {
+            "value": "8192",
+            "text": "Spam",
+            "tag": 8192
+          }
+        ],
+        "reportMemberTypes": [
+          {
+            "value": "1",
+            "text": "Today",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Last 3 days",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Last 10 days",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Last 30 days",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Date range",
+            "tag": 16
+          }
+        ],
+        "memberStatus": [
+          {
+            "value": "2",
+            "text": "Active",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Deleted",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?8",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "?16",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "?32",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?64",
+            "tag": 64
+          }
+        ],
+        "medicalDocTypes": [
+          {
+            "value": "1",
+            "text": "Prescription",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Lab & diagnostic results",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Immunization schedule",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "Medical",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "Health ins. Supp. 1",
+            "tag": 5
+          },
+          {
+            "value": "6",
+            "text": "Health ins. Supp. 2",
+            "tag": 6
+          },
+          {
+            "value": "7",
+            "text": "Dental",
+            "tag": 7
+          },
+          {
+            "value": "8",
+            "text": "Vision",
+            "tag": 8
+          },
+          {
+            "value": "10",
+            "text": "Driver license",
+            "tag": 10
+          },
+          {
+            "value": "12",
+            "text": "Others",
+            "tag": 12
+          },
+          {
+            "value": "13",
+            "text": "Clinic visit",
+            "tag": 13
+          },
+          {
+            "value": "14",
+            "text": "?visitObservation",
+            "tag": 14
+          },
+          {
+            "value": "15",
+            "text": "?visitInstruction",
+            "tag": 15
+          },
+          {
+            "value": "16",
+            "text": "?visitFollowUp",
+            "tag": 16
+          },
+          {
+            "value": "17",
+            "text": "?immuAppt",
+            "tag": 17
+          },
+          {
+            "value": "18",
+            "text": "?presAppt",
+            "tag": 18
+          },
+          {
+            "value": "19",
+            "text": "?capillaryAppt",
+            "tag": 19
+          },
+          {
+            "value": "20",
+            "text": "?insuranceAppt",
+            "tag": 20
+          },
+          {
+            "value": "21",
+            "text": "?idCardAppt",
+            "tag": 21
+          },
+          {
+            "value": "22",
+            "text": "?medicalDocConsult",
+            "tag": 22
+          }
+        ],
+        "docType": [
+          {
+            "value": "1",
+            "text": "Diploma",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "License",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Certificate",
+            "tag": 4
+          },
+          {
+            "value": "128",
+            "text": "Others",
+            "tag": 128
+          }
+        ],
+        "userAttribute": [
+          {
+            "value": "1",
+            "text": "Show tutorial",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Disable Make Connection",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Non Registered",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Enable the appointment setting feature",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Enable Rating",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Enable video call",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Confirmed",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Enable user Vip",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Require 2FA",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Support",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "{0} is in another call",
+            "tag": 1024
+          }
+        ],
+        "voucherStatus": [
+          {
+            "value": "1",
+            "text": "New",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Active",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Inactive",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Draft",
+            "tag": 8
+          }
+        ],
+        "giftCardStatus": [
+          {
+            "value": "1",
+            "text": "New",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Sold",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Used",
+            "tag": 4
+          }
+        ],
+        "voucherTypes": [
+          {
+            "value": "1",
+            "text": "Link",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Normal",
+            "tag": 2
+          }
+        ],
+        "searchOptions": [
+          {
+            "orgType": 1,
+            "name": "Hospital",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/Hospital.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 2,
+            "name": "Multi-service clinic",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/ClinicOrgType.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 512,
+            "name": "Private clinics",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/OneDoctorClinic.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 4,
+            "name": "Pharmacy",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/Pharmacy.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 8,
+            "name": "Dental",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/Dental.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 16,
+            "name": "Lab and Test",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/LabAndTest.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 128,
+            "name": "Others",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/Others.png",
+            "searchWorker": false
+          }
+        ],
+        "urlPhone": "https://devgdrfiles.blob.core.windows.net/data-dev/System/UsageTip/en-US/phone.csv",
+        "urlTip": "https://devgdrfiles.blob.core.windows.net/data-dev/System/UsageTip/en-US/VoucherCode.csv",
+        "advertLinkType": [
+          {
+            "value": "1",
+            "text": "Articles",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Provider",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Business/hospital",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Voucher",
+            "tag": 8
+          }
+        ],
+        "advertShowOnMedia": [
+          {
+            "value": "1",
+            "text": "Web",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "App",
+            "tag": 2
+          },
+          {
+            "value": "255",
+            "text": "All",
+            "tag": 255
+          }
+        ],
+        "advertStatus": [
+          {
+            "value": "1",
+            "text": "Pending",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Active",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Rejected",
+            "tag": 4
+          }
+        ],
+        "advertShowAtScreen": [
+          {
+            "value": "1",
+            "text": "?Homepage",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?Articles",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "All",
+            "tag": 3
+          }
+        ],
+        "advertShowAtPosition": [
+          {
+            "value": "1",
+            "text": "?Top",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?Bottom",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "?Left",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?Right",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "?InList",
+            "tag": 16
+          },
+          {
+            "value": "255",
+            "text": "All",
+            "tag": 255
+          }
+        ],
+        "advertSourceType": [
+          {
+            "value": "1",
+            "text": "?External",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?GdrItem",
+            "tag": 2
+          }
+        ],
+        "changeLogStatus": [
+          {
+            "value": "1",
+            "text": "Pending",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Active",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Rejected",
+            "tag": 4
+          }
+        ],
+        "changeLogLinkType": [
+          {
+            "value": "1",
+            "text": "Articles",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Voucher",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "App version",
+            "tag": 4
+          }
+        ],
+        "sponsorStatus": [
+          {
+            "value": "1",
+            "text": "Active",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Inactive",
+            "tag": 2
+          }
+        ],
+        "sponsorType": null,
+        "visitAccessType": [
+          {
+            "value": "1",
+            "text": "?org",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Provider",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Issues & Observation",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Subclinical",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Medication",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Instructions",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Auditor",
+            "tag": 64
+          }
+        ],
+        "productCategoryStatus": [
+          {
+            "value": "1",
+            "text": "New",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Active",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Inactive",
+            "tag": 4
+          }
+        ],
+        "productServiceType": [
+          {
+            "value": "1",
+            "text": "Product",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Service",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Medical test",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?appointmentSystem",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "?appointmentOrg",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Globedr App Usage Time",
+            "tag": 32
+          }
+        ],
+        "medicalExaminationType": null,
+        "examinationReason": [
+          {
+            "value": "1",
+            "text": "Go to work",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Driver license",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Business contract",
+            "tag": 3
+          },
+          {
+            "value": "255",
+            "text": "Others",
+            "tag": 255
+          }
+        ],
+        "homeMedicalServiceType": [
+          {
+            "value": "1",
+            "text": "Visit examination",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Get tests sample",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Wound care",
+            "tag": 3
+          },
+          {
+            "value": "255",
+            "text": "Others",
+            "tag": 255
+          }
+        ],
+        "appointmentType": [
+          {
+            "value": "1",
+            "text": "Default appointment",
+            "tag": 1
+          },
+          {
+            "value": "4",
+            "text": "First time examination",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Reexamination",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Physical examination",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Telemedicine examination",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Online consultant",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Home medical service",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Immunization",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Private clinics",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Visit at Small Polyclinic",
+            "tag": 1024
+          }
+        ],
+        "appointmentStatus": [
+          {
+            "value": "1",
+            "text": "New",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Scheduled",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Cancel",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Visited",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Unpaid",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Not present",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Not full Info",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Done",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Missed",
+            "tag": 256
+          }
+        ],
+        "appointmentStatusSearch": [
+          {
+            "value": "4",
+            "text": "Cancel",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Visited",
+            "tag": 8
+          },
+          {
+            "value": "32",
+            "text": "Not present",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Not full Info",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Done",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Missed",
+            "tag": 256
+          }
+        ],
+        "orderTypes": [
+          {
+            "value": "1",
+            "text": "Prescription",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Product",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Medical test",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?appointmentService",
+            "tag": 8
+          }
+        ],
+        "orderMedicalTestStatus": [
+          {
+            "value": "2",
+            "text": "New",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Cancel",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Paid",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Sampled",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Have result",
+            "tag": 32
+          },
+          {
+            "value": "128",
+            "text": "?WaitingShip",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "?Shipping",
+            "tag": 256
+          }
+        ],
+        "orderMedicalTestStatusSearch": [
+          {
+            "value": "2",
+            "text": "New",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Cancel",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Paid",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Sampled",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Have result",
+            "tag": 32
+          }
+        ],
+        "orderProcessTypes": [
+          {
+            "value": "1",
+            "text": "Prescribed tests",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Ordered test",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Cancelled test",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?setPrice",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Got test samples",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Updated test results",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?cancelIndicate",
+            "tag": 64
+          },
+          {
+            "value": "256",
+            "text": "?assignTakenSampleStaff",
+            "tag": 256
+          }
+        ],
+        "orderProcessTypes4Product": [
+          {
+            "value": "4",
+            "text": "Cancelled test",
+            "tag": 4
+          },
+          {
+            "value": "128",
+            "text": "Done",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "?assignTakenSampleStaff",
+            "tag": 256
+          }
+        ],
+        "appointmentConfigAttributes": [
+          {
+            "value": "4",
+            "text": "Require Health Info",
+            "tag": 4
+          }
+        ],
+        "appScreen": [
+          {
+            "value": "1",
+            "text": "Home",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "My Health",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Ask doctor",
+            "tag": 3
+          }
+        ],
+        "featureApp": [
+          {
+            "value": "1",
+            "text": "My Health",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Select account",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Health history",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "?documents",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "Immunization",
+            "tag": 5
+          },
+          {
+            "value": "6",
+            "text": "BMI",
+            "tag": 6
+          },
+          {
+            "value": "7",
+            "text": "Blood pressure",
+            "tag": 7
+          },
+          {
+            "value": "8",
+            "text": "Blood glucose",
+            "tag": 8
+          },
+          {
+            "value": "50",
+            "text": "Ask doctor",
+            "tag": 50
+          },
+          {
+            "value": "100",
+            "text": "Appointment",
+            "tag": 100
+          },
+          {
+            "value": "150",
+            "text": "Pharmacy",
+            "tag": 150
+          },
+          {
+            "value": "200",
+            "text": "Medical test",
+            "tag": 200
+          },
+          {
+            "value": "250",
+            "text": "Articles",
+            "tag": 250
+          },
+          {
+            "value": "300",
+            "text": "Chat",
+            "tag": 300
+          },
+          {
+            "value": "400",
+            "text": "Voucher",
+            "tag": 400
+          },
+          {
+            "value": "450",
+            "text": "?scanQRCode",
+            "tag": 450
+          },
+          {
+            "value": "500",
+            "text": "Connection",
+            "tag": 500
+          },
+          {
+            "value": "550",
+            "text": "Personal page",
+            "tag": 550
+          },
+          {
+            "value": "600",
+            "text": "Notification",
+            "tag": 600
+          },
+          {
+            "value": "650",
+            "text": "Sign in",
+            "tag": 650
+          },
+          {
+            "value": "999",
+            "text": "More",
+            "tag": 999
+          }
+        ],
+        "actionGuideApp": [
+          {
+            "value": "1",
+            "text": "Next step",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Go to page",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "End",
+            "tag": 3
+          }
+        ],
+        "paymentType": [
+          {
+            "value": "1",
+            "text": "Online payment",
+            "tag": 1
+          }
+        ],
+        "paymentTypeUser": [
+          {
+            "value": "2",
+            "text": "Direct payment (COD)",
+            "tag": 2
+          }
+        ],
+        "weekday": [
+          {
+            "value": "1",
+            "text": "Monday",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Tuesday",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Wednesday",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "Thursday",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "Friday",
+            "tag": 5
+          },
+          {
+            "value": "6",
+            "text": "Saturday",
+            "tag": 6
+          },
+          {
+            "value": "0",
+            "text": "Sunday",
+            "tag": 0
+          }
+        ],
+        "notiGroup": [
+          {
+            "value": "0",
+            "text": "All",
+            "tag": 0
+          },
+          {
+            "value": "1",
+            "text": "System",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Telemedicine",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Chat",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "Connection",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "Health notification",
+            "tag": 5
+          },
+          {
+            "value": "6",
+            "text": "Appointment",
+            "tag": 6
+          }
+        ],
+        "walletStatus": [
+          {
+            "value": "1",
+            "text": "Received point",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Using point",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "All",
+            "tag": 4
+          }
+        ],
+        "pointActivity": [
+          {
+            "value": "1",
+            "text": "Exchangeable point",
+            "tag": 1
+          },
+          {
+            "value": "16",
+            "text": "Reward point",
+            "tag": 16
+          }
+        ],
+        "pointActivityRule": [
+          {
+            "value": "2",
+            "text": "Upload avatar",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Update profile",
+            "tag": 4
+          },
+          {
+            "value": "512",
+            "text": "Daily active",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "GlobeDr member",
+            "tag": 1024
+          }
+        ],
+        "presentEvents": [
+          {
+            "value": "16",
+            "text": "client-presence-userStatus-request",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "client-presence-userStatus-response",
+            "tag": 32
+          }
+        ],
+        "reportFeesTypes": [
+          {
+            "value": "1",
+            "text": "VIDEO CALL",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "TEXT CONSULTANT",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "MEDICAL TEST",
+            "tag": 4
+          }
+        ]
+      },
+      "vi": {
+        "language": [
+          {
+            "value": "0",
+            "text": "Tiếng Anh",
+            "tag": 0
+          },
+          {
+            "value": "1",
+            "text": "Tiếng Việt",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Tiếng Thái",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Tiếng Hoa",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "Tiếng Pháp",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "Tiếng Nga",
+            "tag": 5
+          },
+          {
+            "value": "6",
+            "text": "Tiếng Nhật",
+            "tag": 6
+          },
+          {
+            "value": "7",
+            "text": "Tiềng Hàn",
+            "tag": 7
+          }
+        ],
+        "gender": [
+          {
+            "value": "1",
+            "text": "Nam",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Nữ",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Không xác định",
+            "tag": 4
+          }
+        ],
+        "carerType": [
+          {
+            "value": "1",
+            "text": "Bệnh nhân",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Ba mẹ",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Con",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Họ hàng",
+            "tag": 8
+          },
+          {
+            "value": "128",
+            "text": "Khác",
+            "tag": 128
+          }
+        ],
+        "carerTypeFull": [
+          {
+            "value": "1",
+            "text": "Bệnh nhân",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Ba mẹ",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Con",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Họ hàng",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Xem & chỉnh sửa",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Chỉ xem",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?shareDoctor",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Khác",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Xem & chỉnh sửa",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Chỉ xem",
+            "tag": 512
+          },
+          {
+            "value": "0",
+            "text": "Tôi",
+            "tag": 0
+          }
+        ],
+        "carerTypeFullFamily": [
+          {
+            "value": "1",
+            "text": "Bệnh nhân",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Ba mẹ",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Con",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Họ hàng",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Được chia sẻ",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Được chia sẻ",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?shareDoctor",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Khác",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Được chia sẻ",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Được chia sẻ",
+            "tag": 512
+          },
+          {
+            "value": "0",
+            "text": "Tôi",
+            "tag": 0
+          }
+        ],
+        "forumCategoryType": [
+          {
+            "value": "1",
+            "text": "Bài nổi bật",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Bình thường",
+            "tag": 2
+          }
+        ],
+        "forumCategoryStatus": [
+          {
+            "value": "1",
+            "text": "Đã kích hoạt",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Mới",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Đã đóng",
+            "tag": 4
+          }
+        ],
+        "forumPostStatus": [
+          {
+            "value": "0",
+            "text": "Mới",
+            "tag": 0
+          },
+          {
+            "value": "1",
+            "text": "Mở",
+            "tag": 1
+          },
+          {
+            "value": "4",
+            "text": "Đã đóng",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Trình duyệt",
+            "tag": 8
+          },
+          {
+            "value": "32",
+            "text": "Từ chối",
+            "tag": 32
+          },
+          {
+            "value": "512",
+            "text": "Bản nháp",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Bỏ lỡ",
+            "tag": 1024
+          },
+          {
+            "value": "2048",
+            "text": "Đã lên lịch",
+            "tag": 2048
+          },
+          {
+            "value": "4096",
+            "text": "Đã hủy",
+            "tag": 4096
+          },
+          {
+            "value": "16383",
+            "text": "Tất cả",
+            "tag": 16383
+          }
+        ],
+        "postSystemType": [
+          {
+            "isType": false,
+            "value": "9",
+            "text": "Về chúng tôi",
+            "tag": 9
+          },
+          {
+            "isType": false,
+            "value": "10",
+            "text": "Điều khoản dịch vụ",
+            "tag": 10
+          },
+          {
+            "isType": false,
+            "value": "11",
+            "text": "Cài đặt",
+            "tag": 11
+          },
+          {
+            "isType": true,
+            "value": "13",
+            "text": "Lịch tiêm chủng",
+            "tag": 13
+          },
+          {
+            "isType": false,
+            "value": "14",
+            "text": "Về lịch tiêm chủng",
+            "tag": 14
+          },
+          {
+            "isType": false,
+            "value": "15",
+            "text": "Tiêm chủng theo tuổi",
+            "tag": 15
+          },
+          {
+            "isType": false,
+            "value": "16",
+            "text": "Tiêm chủng theo vắc-xin",
+            "tag": 16
+          },
+          {
+            "isType": false,
+            "value": "17",
+            "text": "Sổ tiêm chủng",
+            "tag": 17
+          },
+          {
+            "isType": false,
+            "value": "18",
+            "text": "Tiêm chủng cho bà bầu",
+            "tag": 18
+          },
+          {
+            "isType": false,
+            "value": "20",
+            "text": "Về tư vấn",
+            "tag": 20
+          },
+          {
+            "isType": false,
+            "value": "21",
+            "text": "Cách cài đặt GlobeDr",
+            "tag": 21
+          },
+          {
+            "isType": false,
+            "value": "22",
+            "text": "Làm thế nào để đặt câu hỏi mới",
+            "tag": 22
+          },
+          {
+            "isType": false,
+            "value": "23",
+            "text": "?howToAppointmentHospital",
+            "tag": 23
+          },
+          {
+            "isType": false,
+            "value": "24",
+            "text": "Trở thành bác sĩ GlobeDr",
+            "tag": 24
+          },
+          {
+            "isType": false,
+            "value": "30",
+            "text": "Sức khỏe",
+            "tag": 30
+          },
+          {
+            "isType": false,
+            "value": "31",
+            "text": "Về hồ sơ sức khỏe",
+            "tag": 31
+          },
+          {
+            "isType": false,
+            "value": "32",
+            "text": "Về hồ sơ bệnh sử",
+            "tag": 32
+          },
+          {
+            "isType": false,
+            "value": "33",
+            "text": "Mốc tăng trưởng của trẻ",
+            "tag": 33
+          },
+          {
+            "isType": false,
+            "value": "34",
+            "text": "Về BMI",
+            "tag": 34
+          },
+          {
+            "isType": false,
+            "value": "35",
+            "text": "Về sơ đồ tăng trưởng",
+            "tag": 35
+          },
+          {
+            "isType": false,
+            "value": "36",
+            "text": "Về huyết áp",
+            "tag": 36
+          },
+          {
+            "isType": false,
+            "value": "37",
+            "text": "Về đường huyết",
+            "tag": 37
+          },
+          {
+            "isType": false,
+            "value": "38",
+            "text": "BMI trẻ em",
+            "tag": 38
+          },
+          {
+            "isType": false,
+            "value": "40",
+            "text": "Hỗ trợ sử dụng voucher",
+            "tag": 40
+          },
+          {
+            "isType": false,
+            "value": "45",
+            "text": "Chức năng nỗi bật",
+            "tag": 45
+          },
+          {
+            "isType": false,
+            "value": "46",
+            "text": "Chăm sóc sức khỏe toàn diện",
+            "tag": 46
+          },
+          {
+            "isType": false,
+            "value": "47",
+            "text": "Bản ghi cập nhật",
+            "tag": 47
+          },
+          {
+            "isType": false,
+            "value": "48",
+            "text": "Các câu hỏi thường gặp",
+            "tag": 48
+          },
+          {
+            "isType": false,
+            "value": "49",
+            "text": "GlobeDr Member Manager",
+            "tag": 49
+          },
+          {
+            "isType": false,
+            "value": "50",
+            "text": "Quyền lợi hợp tác",
+            "tag": 50
+          },
+          {
+            "isType": false,
+            "value": "51",
+            "text": "Liên hệ hợp tác",
+            "tag": 51
+          },
+          {
+            "isType": false,
+            "value": "52",
+            "text": "GlobeDr Business – Doctor",
+            "tag": 52
+          },
+          {
+            "isType": false,
+            "value": "53",
+            "text": "Hệ sinh thái GlobeDr",
+            "tag": 53
+          },
+          {
+            "isType": false,
+            "value": "54",
+            "text": "Quy chế hoạt động",
+            "tag": 54
+          },
+          {
+            "isType": false,
+            "value": "55",
+            "text": "Quy chế hoạt động cho web",
+            "tag": 55
+          },
+          {
+            "isType": false,
+            "value": "56",
+            "text": "Quy chế đăng tin",
+            "tag": 56
+          },
+          {
+            "isType": false,
+            "value": "57",
+            "text": "Quy chế đăng tin cho web",
+            "tag": 57
+          },
+          {
+            "isType": false,
+            "value": "58",
+            "text": "Cơ chế giải quyết tranh chấp",
+            "tag": 58
+          },
+          {
+            "isType": false,
+            "value": "59",
+            "text": "Cơ chế giải quyết tranh chấp cho web",
+            "tag": 59
+          },
+          {
+            "isType": false,
+            "value": "60",
+            "text": "Điều khoản sử dụng và Chính sách bảo mật cho web",
+            "tag": 60
+          },
+          {
+            "isType": false,
+            "value": "61",
+            "text": "Sức khỏe",
+            "tag": 61
+          },
+          {
+            "isType": false,
+            "value": "62",
+            "text": "Nhà thuốc",
+            "tag": 62
+          },
+          {
+            "isType": false,
+            "value": "63",
+            "text": "?scanQrCode",
+            "tag": 63
+          },
+          {
+            "isType": false,
+            "value": "64",
+            "text": "Xét nghiệm y tế",
+            "tag": 64
+          }
+        ],
+        "forumPostAdminSortType": [
+          {
+            "value": "1",
+            "text": "?latest",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?latestActivity",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "?mostComments",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "?mostViewers",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "?mostLikes",
+            "tag": 5
+          }
+        ],
+        "userStatus": [
+          {
+            "value": "1",
+            "text": "Mới",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đã kích hoạt",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Đã chặn",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Chờ chấp nhận",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Sáp nhập",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Đã xóa",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?exitSystem",
+            "tag": 64
+          }
+        ],
+        "userType": [
+          {
+            "value": "1",
+            "text": "Bác sĩ",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Bệnh nhân",
+            "tag": 2
+          },
+          {
+            "value": "8",
+            "text": "Điều phối viên",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Kiểm duyệt",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Biên tập viên",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Cấu hình ứng dụng",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Cố vấn",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Kế toán",
+            "tag": 256
+          }
+        ],
+        "userFeatureAttribute": [
+          {
+            "value": "1",
+            "text": "Tin nhắn",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Hỏi bác sĩ tư vấn",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Đặt hẹn khám",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Liên hệ nhà thuốc",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Doanh nghiệp/Bệnh viện",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Quá trình học tập và làm việc",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Tài khoản phần mềm",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Sức khỏe",
+            "tag": 128
+          }
+        ],
+        "profession": [
+          {
+            "value": "1",
+            "text": "Bác sĩ",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?dentist",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "?nursePractitioner",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?nurse",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Chủ sở hữu",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "?pharmacist",
+            "tag": 32
+          },
+          {
+            "value": "128",
+            "text": "Khác",
+            "tag": 128
+          }
+        ],
+        "orgType": [
+          {
+            "value": "1",
+            "text": "Bệnh viện",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Phòng khám đa dịch vụ",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Nhà thuốc",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Nha khoa",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Trung tâm xét nghiệm",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Doanh nghiệp",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Trường học",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Khác",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Xí nghiệp",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Phòng mạch tư",
+            "tag": 512
+          }
+        ],
+        "timeTypes": [
+          {
+            "value": "1",
+            "text": "Buổi sáng",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Buổi chiều",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Buổi tối",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Sớm nhất",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Lúc",
+            "tag": 16
+          }
+        ],
+        "deliveryTypes": [
+          {
+            "value": "1",
+            "text": "Đến nhà thuốc",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Tại địa chỉ ghi bên dưới",
+            "tag": 2
+          }
+        ],
+        "sampledMethodTypes": [
+          {
+            "value": "4",
+            "text": "Tại phòng xét nghiệm",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Tại nhà",
+            "tag": 8
+          }
+        ],
+        "medicalTypes": [
+          {
+            "value": "2",
+            "text": "Kết quả xét nghiệm và chẩn đoán",
+            "tag": 2
+          },
+          {
+            "value": "8",
+            "text": "Lấy hẹn",
+            "tag": 8
+          }
+        ],
+        "questionGroupTypes": [
+          {
+            "value": "1",
+            "text": "Tình trạng lúc sinh",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/statusatbirth.png"
+          },
+          {
+            "value": "2",
+            "text": "Yếu tố nguy cơ đến sức khỏe cá nhân",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/lifestylehealth.png"
+          },
+          {
+            "value": "3",
+            "text": "Tiền sử dị ứng",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/historyofallergy.png"
+          },
+          {
+            "value": "4",
+            "text": "Bệnh sử",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/healthhistory.png"
+          },
+          {
+            "value": "5",
+            "text": "Tiền sử khuyết tật",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/historyofdisability.png"
+          },
+          {
+            "value": "6",
+            "text": "Tiền sử phẫu thuật Tiền sử gia đình",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/historyfamily.png"
+          },
+          {
+            "value": "7",
+            "text": "Sinh sản và kế hoạch hóa gia đình",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/familyplan.png"
+          },
+          {
+            "value": "8",
+            "text": "Khác",
+            "tag": "https://files-test.globedr.com/System/SysQuestionGroupIcon/other.png"
+          }
+        ],
+        "bloodTypes": [
+          {
+            "value": "1",
+            "text": "a",
+            "tag": "https://files-test.globedr.com/System/Blood/a.png"
+          },
+          {
+            "value": "2",
+            "text": "b",
+            "tag": "https://files-test.globedr.com/System/Blood/b.png"
+          },
+          {
+            "value": "3",
+            "text": "aB",
+            "tag": "https://files-test.globedr.com/System/Blood/ab.png"
+          },
+          {
+            "value": "4",
+            "text": "o",
+            "tag": "https://files-test.globedr.com/System/Blood/o.png"
+          },
+          {
+            "value": "8",
+            "text": "Không xác định",
+            "tag": "https://files-test.globedr.com/System/Blood/unspecified.png"
+          }
+        ],
+        "orderStatus": [
+          {
+            "value": "1",
+            "text": "Bản nháp",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Mới",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Hủy",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Đã thanh toán",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Lấy mẫu xong",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Đã có kết quả",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?Processing",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "?WaitingShip",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "?Shipping",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Từ chối",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Hoàn thành",
+            "tag": 1024
+          },
+          {
+            "value": "2048",
+            "text": "?DoctorIndicated",
+            "tag": 2048
+          }
+        ],
+        "orgStatus": [
+          {
+            "value": "1",
+            "text": "Mới",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đã kích hoạt",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Đã chặn",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Đã xóa",
+            "tag": 8
+          },
+          {
+            "value": "255",
+            "text": "Tất cả",
+            "tag": 255
+          }
+        ],
+        "orgAttribute": [
+          {
+            "value": "1",
+            "text": "Gọi xoay vòng",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Chưa đăng ký",
+            "tag": 2
+          },
+          {
+            "value": "32",
+            "text": "Bật tính năng giao hàng",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Bật cho phép gửi SMS xác thực đặt hẹn thành công",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Đã xác nhận",
+            "tag": 128
+          },
+          {
+            "value": "512",
+            "text": "Bật gọi video",
+            "tag": 512
+          },
+          {
+            "value": "4096",
+            "text": "Bật tính năng quản lý bài",
+            "tag": 4096
+          },
+          {
+            "value": "16384",
+            "text": "Bật tính năng quản lý voucher",
+            "tag": 16384
+          },
+          {
+            "value": "32768",
+            "text": "Bật hợp tác với Globedr",
+            "tag": 32768
+          },
+          {
+            "value": "65536",
+            "text": "Bật thông báo lịch tiêm ngừa tự động",
+            "tag": 65536
+          },
+          {
+            "value": "131072",
+            "text": "Bật thông báo lịch tiêm ngừa thủ công",
+            "tag": 131072
+          },
+          {
+            "value": "524288",
+            "text": "Bật thanh toán",
+            "tag": 524288
+          }
+        ],
+        "currency": [
+          {
+            "value": "1",
+            "text": "USD",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "VNĐ",
+            "tag": 2
+          }
+        ],
+        "orgStaffStatus": [
+          {
+            "value": "1",
+            "text": "Mới",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?activeMember",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Đã chặn",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Chờ chấp nhận",
+            "tag": 8
+          }
+        ],
+        "orgStaffAttributes": [
+          {
+            "value": "1",
+            "text": "Quản lý",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Quản trị",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Phụ trách nội dung",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Tiếp tân",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Marketing",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Y tá",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "CSKH",
+            "tag": 64
+          }
+        ],
+        "orgStaffAttributes4AddStaff": [
+          {
+            "value": "2",
+            "text": "Quản trị",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Phụ trách nội dung",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Tiếp tân",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Marketing",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Y tá",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "CSKH",
+            "tag": 64
+          }
+        ],
+        "orgFeatureAttributes": [
+          {
+            "value": "1",
+            "text": "Thông tin doanh nghiệp",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Bộ phận/Phòng ban/Nhân viên",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Quản lý khách hàng",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Chuyên khoa",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Mã QR",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Chọn giao diện web",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Đánh giá",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Bài viết",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Voucher",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "CSKH",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Chiến dịch",
+            "tag": 1024
+          },
+          {
+            "value": "2048",
+            "text": "Sản phẩm/Dịch vụ",
+            "tag": 2048
+          },
+          {
+            "value": "4096",
+            "text": "Đơn hàng",
+            "tag": 4096
+          },
+          {
+            "value": "8192",
+            "text": "Xét nghiệm",
+            "tag": 8192
+          },
+          {
+            "value": "16384",
+            "text": "Danh sách lịch khám",
+            "tag": 16384
+          },
+          {
+            "value": "131072",
+            "text": "Mua Thuốc",
+            "tag": 131072
+          },
+          {
+            "value": "262144",
+            "text": "Tư vấn",
+            "tag": 262144
+          },
+          {
+            "value": "2097152",
+            "text": "?medicalTestTakenSampleFeature",
+            "tag": 2097152
+          }
+        ],
+        "orgFeatureAttributes4Staff": [
+          {
+            "value": "1",
+            "text": "Thông tin doanh nghiệp",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Bộ phận/Phòng ban/Nhân viên",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Quản lý khách hàng",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Chuyên khoa",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Mã QR",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Chọn giao diện web",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Đánh giá",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Bài viết",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Voucher",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "CSKH",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Chiến dịch",
+            "tag": 1024
+          },
+          {
+            "value": "2048",
+            "text": "Sản phẩm/Dịch vụ",
+            "tag": 2048
+          },
+          {
+            "value": "4096",
+            "text": "Đơn hàng",
+            "tag": 4096
+          },
+          {
+            "value": "8192",
+            "text": "Xét nghiệm",
+            "tag": 8192
+          },
+          {
+            "value": "16384",
+            "text": "Danh sách lịch khám",
+            "tag": 16384
+          },
+          {
+            "value": "32768",
+            "text": "Cấu hình lịch khám",
+            "tag": 32768
+          },
+          {
+            "value": "65536",
+            "text": "Chi nhánh",
+            "tag": 65536
+          },
+          {
+            "value": "131072",
+            "text": "Mua Thuốc",
+            "tag": 131072
+          },
+          {
+            "value": "524288",
+            "text": "Cấu hình tư vấn",
+            "tag": 524288
+          },
+          {
+            "value": "1048576",
+            "text": "?medicalTestConfigFeature",
+            "tag": 1048576
+          },
+          {
+            "value": "2097152",
+            "text": "?medicalTestTakenSampleFeature",
+            "tag": 2097152
+          }
+        ],
+        "postStatus": [
+          {
+            "value": "1",
+            "text": "Đã tiếp nhận",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Bác sĩ đã nhận",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Đã đóng",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Gửi cố vấn duyệt",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Cố vấn đã duyệt",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Cố vấn bổ sung",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Đã gửi bác sĩ",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Câu hỏi trễ",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Bác sĩ đã trả lời",
+            "tag": 256
+          },
+          {
+            "value": "8192",
+            "text": "Spam",
+            "tag": 8192
+          }
+        ],
+        "reportMemberTypes": [
+          {
+            "value": "1",
+            "text": "Hôm nay",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "3 ngày gần nhất",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "10 ngày gần nhất",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "30 ngày gần nhất",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Khoảng ngày",
+            "tag": 16
+          }
+        ],
+        "memberStatus": [
+          {
+            "value": "2",
+            "text": "Đã kích hoạt",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Đã xóa",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?8",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "?16",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "?32",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?64",
+            "tag": 64
+          }
+        ],
+        "medicalDocTypes": [
+          {
+            "value": "1",
+            "text": "Đơn thuốc",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Kết quả xét nghiệm và chẩn đoán",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Hồ sơ tiêm chủng",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "Y tế",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "BHYT bổ sung 1",
+            "tag": 5
+          },
+          {
+            "value": "6",
+            "text": "BHYT bổ sung 2",
+            "tag": 6
+          },
+          {
+            "value": "7",
+            "text": "Nha khoa",
+            "tag": 7
+          },
+          {
+            "value": "8",
+            "text": "Thị lực",
+            "tag": 8
+          },
+          {
+            "value": "10",
+            "text": "Giấy phép lái xe",
+            "tag": 10
+          },
+          {
+            "value": "12",
+            "text": "Khác",
+            "tag": 12
+          },
+          {
+            "value": "13",
+            "text": "Phòng khám từng khám",
+            "tag": 13
+          },
+          {
+            "value": "14",
+            "text": "?visitObservation",
+            "tag": 14
+          },
+          {
+            "value": "15",
+            "text": "?visitInstruction",
+            "tag": 15
+          },
+          {
+            "value": "16",
+            "text": "?visitFollowUp",
+            "tag": 16
+          },
+          {
+            "value": "17",
+            "text": "?immuAppt",
+            "tag": 17
+          },
+          {
+            "value": "18",
+            "text": "?presAppt",
+            "tag": 18
+          },
+          {
+            "value": "19",
+            "text": "?capillaryAppt",
+            "tag": 19
+          },
+          {
+            "value": "20",
+            "text": "?insuranceAppt",
+            "tag": 20
+          },
+          {
+            "value": "21",
+            "text": "?idCardAppt",
+            "tag": 21
+          },
+          {
+            "value": "22",
+            "text": "?medicalDocConsult",
+            "tag": 22
+          }
+        ],
+        "docType": [
+          {
+            "value": "1",
+            "text": "Bằng cấp",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Giấy phép",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Chứng chỉ",
+            "tag": 4
+          },
+          {
+            "value": "128",
+            "text": "Khác",
+            "tag": 128
+          }
+        ],
+        "userAttribute": [
+          {
+            "value": "1",
+            "text": "Hiện hướng dẫn",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Không cho phép kết nối",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Chưa đăng ký",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Bật tính năng đặt lịch hẹn",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Kích hoạt xếp hạng",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Bật gọi video",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Đã xác nhận",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Kích hoạt người dùng Vip",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Yêu cầu bảo mật 2 lớp",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Hỗ trợ",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "{0} đang có cuộc gọi khác",
+            "tag": 1024
+          }
+        ],
+        "voucherStatus": [
+          {
+            "value": "1",
+            "text": "Mới",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đã kích hoạt",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Chưa kích hoạt",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Bản nháp",
+            "tag": 8
+          }
+        ],
+        "giftCardStatus": [
+          {
+            "value": "1",
+            "text": "Mới",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đã chọn",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Đã sử dụng",
+            "tag": 4
+          }
+        ],
+        "voucherTypes": [
+          {
+            "value": "1",
+            "text": "Liên kết",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Bình thường",
+            "tag": 2
+          }
+        ],
+        "searchOptions": [
+          {
+            "orgType": 1,
+            "name": "Bệnh viện",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/Hospital.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 2,
+            "name": "Phòng khám đa dịch vụ",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/ClinicOrgType.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 512,
+            "name": "Phòng mạch tư",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/OneDoctorClinic.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 4,
+            "name": "Nhà thuốc",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/Pharmacy.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 8,
+            "name": "Nha khoa",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/Dental.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 16,
+            "name": "Trung tâm xét nghiệm",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/LabAndTest.png",
+            "searchWorker": false
+          },
+          {
+            "orgType": 128,
+            "name": "Khác",
+            "imageUrl": "https://gdr-service.globedr.com/images/search-icon/Others.png",
+            "searchWorker": false
+          }
+        ],
+        "urlPhone": "https://devgdrfiles.blob.core.windows.net/data-dev/System/UsageTip/vi-VN/phone.csv",
+        "urlTip": "https://devgdrfiles.blob.core.windows.net/data-dev/System/UsageTip/vi-VN/VoucherCode.csv",
+        "advertLinkType": [
+          {
+            "value": "1",
+            "text": "Bài viết",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Bác sĩ",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Doanh nghiệp/Bệnh viện",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Voucher",
+            "tag": 8
+          }
+        ],
+        "advertShowOnMedia": [
+          {
+            "value": "1",
+            "text": "Web",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Ứng dụng",
+            "tag": 2
+          },
+          {
+            "value": "255",
+            "text": "Tất cả",
+            "tag": 255
+          }
+        ],
+        "advertStatus": [
+          {
+            "value": "1",
+            "text": "Chờ chấp nhận",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đã kích hoạt",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Từ chối",
+            "tag": 4
+          }
+        ],
+        "advertShowAtScreen": [
+          {
+            "value": "1",
+            "text": "?Homepage",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?Articles",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Tất cả",
+            "tag": 3
+          }
+        ],
+        "advertShowAtPosition": [
+          {
+            "value": "1",
+            "text": "?Top",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?Bottom",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "?Left",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?Right",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "?InList",
+            "tag": 16
+          },
+          {
+            "value": "255",
+            "text": "Tất cả",
+            "tag": 255
+          }
+        ],
+        "advertSourceType": [
+          {
+            "value": "1",
+            "text": "?External",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "?GdrItem",
+            "tag": 2
+          }
+        ],
+        "changeLogStatus": [
+          {
+            "value": "1",
+            "text": "Chờ chấp nhận",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đã kích hoạt",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Từ chối",
+            "tag": 4
+          }
+        ],
+        "changeLogLinkType": [
+          {
+            "value": "1",
+            "text": "Bài viết",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Voucher",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Phiên bản ứng dụng",
+            "tag": 4
+          }
+        ],
+        "sponsorStatus": [
+          {
+            "value": "1",
+            "text": "Đã kích hoạt",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Chưa kích hoạt",
+            "tag": 2
+          }
+        ],
+        "sponsorType": null,
+        "visitAccessType": [
+          {
+            "value": "1",
+            "text": "?org",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Bác sĩ",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Lâm sàng",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Cận lâm sàng",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Thuốc điều trị",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Kết luận",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Cố vấn",
+            "tag": 64
+          }
+        ],
+        "productCategoryStatus": [
+          {
+            "value": "1",
+            "text": "Mới",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đã kích hoạt",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Chưa kích hoạt",
+            "tag": 4
+          }
+        ],
+        "productServiceType": [
+          {
+            "value": "1",
+            "text": "Sản phẩm",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Dịch vụ",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Xét nghiệm y tế",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?appointmentSystem",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "?appointmentOrg",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Gói thời gian sử dụng ứng dụng Globedr",
+            "tag": 32
+          }
+        ],
+        "medicalExaminationType": null,
+        "examinationReason": [
+          {
+            "value": "1",
+            "text": "Đi làm",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Xin giấy phép lái xe",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Hợp đồng doanh nghiệp",
+            "tag": 3
+          },
+          {
+            "value": "255",
+            "text": "Khác",
+            "tag": 255
+          }
+        ],
+        "homeMedicalServiceType": [
+          {
+            "value": "1",
+            "text": "Đến khám",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đến lấy mẫu xét nghiệm",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Chăm sóc vết thương",
+            "tag": 3
+          },
+          {
+            "value": "255",
+            "text": "Khác",
+            "tag": 255
+          }
+        ],
+        "appointmentType": [
+          {
+            "value": "1",
+            "text": "Lịch hẹn mặc định",
+            "tag": 1
+          },
+          {
+            "value": "4",
+            "text": "Khám lần đầu",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Tái khám",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Khám sức khỏe",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Khám bệnh từ xa",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Tư vấn trực tuyến",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Dịch vụ y tế tại nhà",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Chủng ngừa",
+            "tag": 256
+          },
+          {
+            "value": "512",
+            "text": "Phòng mạch tư",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Phòng khám đa dịch vụ",
+            "tag": 1024
+          }
+        ],
+        "appointmentStatus": [
+          {
+            "value": "1",
+            "text": "Mới",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đã lên lịch",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Hủy",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Đã khám",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Chưa thanh toán",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Chưa khám",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Chưa đủ thông tin",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Xong",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Bỏ hẹn",
+            "tag": 256
+          }
+        ],
+        "appointmentStatusSearch": [
+          {
+            "value": "4",
+            "text": "Hủy",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Đã khám",
+            "tag": 8
+          },
+          {
+            "value": "32",
+            "text": "Chưa khám",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "Chưa đủ thông tin",
+            "tag": 64
+          },
+          {
+            "value": "128",
+            "text": "Xong",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "Bỏ hẹn",
+            "tag": 256
+          }
+        ],
+        "orderTypes": [
+          {
+            "value": "1",
+            "text": "Đơn thuốc",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Sản phẩm",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Xét nghiệm y tế",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?appointmentService",
+            "tag": 8
+          }
+        ],
+        "orderMedicalTestStatus": [
+          {
+            "value": "2",
+            "text": "Mới",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Hủy",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Đã thanh toán",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Lấy mẫu xong",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Đã có kết quả",
+            "tag": 32
+          },
+          {
+            "value": "128",
+            "text": "?WaitingShip",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "?Shipping",
+            "tag": 256
+          }
+        ],
+        "orderMedicalTestStatusSearch": [
+          {
+            "value": "2",
+            "text": "Mới",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Hủy",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "Đã thanh toán",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Lấy mẫu xong",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Đã có kết quả",
+            "tag": 32
+          }
+        ],
+        "orderProcessTypes": [
+          {
+            "value": "1",
+            "text": "Đã chỉ định xét nghiệm",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đã yêu cầu xét nghiệm",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Đã hủy xét nghiệm",
+            "tag": 4
+          },
+          {
+            "value": "8",
+            "text": "?setPrice",
+            "tag": 8
+          },
+          {
+            "value": "16",
+            "text": "Đã lấy mẫu xét nghiệm",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "Đã cập nhật kết quả xét nghiệm",
+            "tag": 32
+          },
+          {
+            "value": "64",
+            "text": "?cancelIndicate",
+            "tag": 64
+          },
+          {
+            "value": "256",
+            "text": "?assignTakenSampleStaff",
+            "tag": 256
+          }
+        ],
+        "orderProcessTypes4Product": [
+          {
+            "value": "4",
+            "text": "Đã hủy xét nghiệm",
+            "tag": 4
+          },
+          {
+            "value": "128",
+            "text": "Xong",
+            "tag": 128
+          },
+          {
+            "value": "256",
+            "text": "?assignTakenSampleStaff",
+            "tag": 256
+          }
+        ],
+        "appointmentConfigAttributes": [
+          {
+            "value": "4",
+            "text": "Xác nhận thông tin bệnh nhân",
+            "tag": 4
+          }
+        ],
+        "appScreen": [
+          {
+            "value": "1",
+            "text": "Trang chủ",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Sức khỏe",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Hỏi bác sĩ",
+            "tag": 3
+          }
+        ],
+        "featureApp": [
+          {
+            "value": "1",
+            "text": "Sức khỏe",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Chọn tài khoản",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Bệnh sử",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "?documents",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "Lịch tiêm chủng",
+            "tag": 5
+          },
+          {
+            "value": "6",
+            "text": "BMI",
+            "tag": 6
+          },
+          {
+            "value": "7",
+            "text": "Huyết áp",
+            "tag": 7
+          },
+          {
+            "value": "8",
+            "text": "Đường huyết",
+            "tag": 8
+          },
+          {
+            "value": "50",
+            "text": "Hỏi bác sĩ",
+            "tag": 50
+          },
+          {
+            "value": "100",
+            "text": "Đặt lịch hẹn",
+            "tag": 100
+          },
+          {
+            "value": "150",
+            "text": "Nhà thuốc",
+            "tag": 150
+          },
+          {
+            "value": "200",
+            "text": "Xét nghiệm y tế",
+            "tag": 200
+          },
+          {
+            "value": "250",
+            "text": "Bài viết",
+            "tag": 250
+          },
+          {
+            "value": "300",
+            "text": "Tin nhắn",
+            "tag": 300
+          },
+          {
+            "value": "400",
+            "text": "Voucher",
+            "tag": 400
+          },
+          {
+            "value": "450",
+            "text": "?scanQRCode",
+            "tag": 450
+          },
+          {
+            "value": "500",
+            "text": "Kết nối",
+            "tag": 500
+          },
+          {
+            "value": "550",
+            "text": "Trang cá nhân",
+            "tag": 550
+          },
+          {
+            "value": "600",
+            "text": "Thông báo",
+            "tag": 600
+          },
+          {
+            "value": "650",
+            "text": "Đăng nhập",
+            "tag": 650
+          },
+          {
+            "value": "999",
+            "text": "Xem thêm",
+            "tag": 999
+          }
+        ],
+        "actionGuideApp": [
+          {
+            "value": "1",
+            "text": "Bước tiếp theo",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Đi đến trang",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Cuối cùng",
+            "tag": 3
+          }
+        ],
+        "paymentType": [
+          {
+            "value": "1",
+            "text": "Thanh toán online",
+            "tag": 1
+          }
+        ],
+        "paymentTypeUser": [
+          {
+            "value": "2",
+            "text": "Thanh toán trực tiếp (COD)",
+            "tag": 2
+          }
+        ],
+        "weekday": [
+          {
+            "value": "1",
+            "text": "Thứ hai",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Thứ ba",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Thứ tư",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "Thứ năm",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "Thứ sáu",
+            "tag": 5
+          },
+          {
+            "value": "6",
+            "text": "Thứ bảy",
+            "tag": 6
+          },
+          {
+            "value": "0",
+            "text": "Chủ nhật",
+            "tag": 0
+          }
+        ],
+        "notiGroup": [
+          {
+            "value": "0",
+            "text": "Tất cả",
+            "tag": 0
+          },
+          {
+            "value": "1",
+            "text": "Hệ thống",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Khám bệnh từ xa",
+            "tag": 2
+          },
+          {
+            "value": "3",
+            "text": "Tin nhắn",
+            "tag": 3
+          },
+          {
+            "value": "4",
+            "text": "Kết nối",
+            "tag": 4
+          },
+          {
+            "value": "5",
+            "text": "Hồ sơ sức khỏe",
+            "tag": 5
+          },
+          {
+            "value": "6",
+            "text": "Đặt lịch hẹn",
+            "tag": 6
+          }
+        ],
+        "walletStatus": [
+          {
+            "value": "1",
+            "text": "Nhận điểm",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "Sử dụng điểm",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Tất cả",
+            "tag": 4
+          }
+        ],
+        "pointActivity": [
+          {
+            "value": "1",
+            "text": "Điểm quy đổi",
+            "tag": 1
+          },
+          {
+            "value": "16",
+            "text": "Điểm khuyến mãi",
+            "tag": 16
+          }
+        ],
+        "pointActivityRule": [
+          {
+            "value": "2",
+            "text": "Cập nhật ảnh đại diện",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "Cập nhật hồ sơ",
+            "tag": 4
+          },
+          {
+            "value": "512",
+            "text": "Truy cập mỗi ngày",
+            "tag": 512
+          },
+          {
+            "value": "1024",
+            "text": "Thành viên GlobeDr",
+            "tag": 1024
+          }
+        ],
+        "presentEvents": [
+          {
+            "value": "16",
+            "text": "client-presence-userStatus-request",
+            "tag": 16
+          },
+          {
+            "value": "32",
+            "text": "client-presence-userStatus-response",
+            "tag": 32
+          }
+        ],
+        "reportFeesTypes": [
+          {
+            "value": "1",
+            "text": "VIDEO CALL",
+            "tag": 1
+          },
+          {
+            "value": "2",
+            "text": "TƯ VẤN",
+            "tag": 2
+          },
+          {
+            "value": "4",
+            "text": "XÉT NGHIỆM",
+            "tag": 4
+          }
+        ]
+      }
+    }
+  },
+  "errors": null
+}

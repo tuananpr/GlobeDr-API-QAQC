@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      },
+      {
+        "medId": "PNEUMO23",
+        "name": "PNEUMO23",
+        "description": "pneumopathy and osteomyelitis)."
+      },
+      {
+        "medId": "SYNFLORIX",
+        "name": "SYNFLORIX",
+        "description": "To prevent invasive pneumococcal disease."
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}

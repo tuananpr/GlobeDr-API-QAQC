@@ -1,0 +1,68 @@
+{
+  "utcTime0": "2022-01-07T01:40:34.553",
+  "success": true,
+  "message": null,
+  "data": [
+    {
+      "code": "20301",
+      "name": "Phường 1"
+    },
+    {
+      "code": "20302",
+      "name": "Phường 2"
+    },
+    {
+      "code": "20303",
+      "name": "Phường 3"
+    },
+    {
+      "code": "20304",
+      "name": "Phường 4"
+    },
+    {
+      "code": "20305",
+      "name": "Phường 5"
+    },
+    {
+      "code": "20306",
+      "name": "Phường 6"
+    },
+    {
+      "code": "20307",
+      "name": "Phường 7"
+    },
+    {
+      "code": "20308",
+      "name": "Phường 8"
+    },
+    {
+      "code": "20309",
+      "name": "Phường 9"
+    },
+    {
+      "code": "20310",
+      "name": "Phường 10"
+    },
+    {
+      "code": "20311",
+      "name": "Phường 11"
+    },
+    {
+      "code": "20312",
+      "name": "Phường 12"
+    },
+    {
+      "code": "20313",
+      "name": "Phường 13"
+    },
+    {
+      "code": "20314",
+      "name": "Phường 14"
+    },
+    {
+      "code": "90795",
+      "name": "Phường Võ Thị Sáu"
+    }
+  ],
+  "errors": null
+}

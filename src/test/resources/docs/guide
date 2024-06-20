@@ -1,0 +1,5 @@
+
+
+1. Run tests cucumber by maven (CLI)
+_ For io.cucumber 6 : mvn test -Dcucumber.filter.tags="@login"
+_ For incukes.cucumber 2 : mvn test -Dcucumber.options="--tags @login"

@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "medId": "OTHER",
+        "name": "Other Medicine",
+        "description": "Other medicine"
+      },
+      {
+        "medId": "PRIORIX",
+        "name": "PRIORIX",
+        "description": "Measles, Mumps, and Rubella"
+      },
+      {
+        "medId": "TRIMOVAX",
+        "name": "TRIMOVAX",
+        "description": "Measles, Mumps, and Rubella"
+      }
+    ]
+  },
+  "errors": {
+    "userSignature": null,
+    "vacIds": null
+  }
+}
